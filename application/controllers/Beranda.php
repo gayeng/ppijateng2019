@@ -12,7 +12,7 @@ class Beranda extends CI_Controller {
 	public function index()
 	{
 	  
-	  $this->template->load('layoutfornt', 'beranda_v'); 
+	  $this->template->load('guest_v/layoutfront', 'guest_v/beranda_v'); 
 	}
 	}
 
