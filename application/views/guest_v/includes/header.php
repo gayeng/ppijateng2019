@@ -17,14 +17,15 @@
 		<title>PIP_2019</title>
 	
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+
 			<!--
 			CSS
 			============================================= -->
 			
 			<link href="<?php echo base_url(); ?>template/css/linearicons.css" rel="stylesheet">
-			<link rel="stylesheet" href="">
+			
 			<link href="<?php echo base_url(); ?>template/css/font-awesome.min.css" rel="stylesheet">
-			<link rel="stylesheet" href="css/bootstrap.css">
+			
 			<link href="<?php echo base_url(); ?>template/css/bootstrap.css" rel="stylesheet">
 		
 			<link href="<?php echo base_url(); ?>template/css/magnific-popup.css" rel="stylesheet">
@@ -34,7 +35,7 @@
 			<link href="<?php echo base_url(); ?>template/css/animate.min.css" rel="stylesheet">
 		
 			<link href="<?php echo base_url(); ?>template/css/aowl.carousel.css" rel="stylesheet">
-			<link rel="stylesheet" href="css/main.css">
+		
 			<link href="<?php echo base_url(); ?>template/css/main.css" rel="stylesheet">
 		</head>
 		<body>

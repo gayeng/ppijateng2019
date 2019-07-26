@@ -12,8 +12,8 @@
 							<div class="countdown">
 								<div id="timer" class="text-white"></div>
 							</div>
-							<h4><span class="lnr lnr-calendar-full"></span>20-22 September 2019</h4>
-							<h4><span class="lnr lnr-map"></span> Halaman Pendopo Bupati Wonosobo</h4>
+							<h4>Waktu : 20-22 September 2019</h4>
+							<h4> Tempat : Halaman Pendopo Bupati Wonosobo</h4>
 						</div>											
 					</div>
 				</div>
@@ -30,14 +30,15 @@
 							Adalah</h1>
 							<p><span>We are here to listen from you deliver exellence</span></p>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. magna aliqua. Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. magna aliqua. Ut enim ad minim.
+							mmmmmmmmmm
+								
 							</p>
 						</div>
 						<section class="video-area col-lg-6 no-padding">
 							<div class="overlay overlay-bg"></div>
 							<div class="containers">
 								<div class="video-content">
-									<img class="img-fluid" src="<?php echo base_url(); ?>template/img/about1.jpg">
+									<img class="img-fluid" src="<?php echo base_url(); ?>template/img/inovasi.jpg" width="86%">
 								</div>
 							</div>
 						</section>											
@@ -53,7 +54,7 @@
 					<div class="row align-items-center">
 						<div class="col-lg-8 no-padding about-left">
 							
-							<img class="img-fluid" src="<?php echo base_url(); ?>template/img/about2.jpg">
+							<img class="img-fluid" src="<?php echo base_url(); ?>template/img/sambutanku.jpg" width="72%">
 						</div>
 						<div class="col-lg-4 no-padding about-right">
 							
@@ -89,9 +90,17 @@
 					
 			<!-- Start brand Area -->
 			<section class="brand-area section-gap">
+			
 				<div class="container">
-					<div class="row logo-wrap">
-					<h1 class="text-white">Sponsor</h1>
+					
+					<h1 class="">Sponsor</h1>
+					
+					<div class="container-fluid">
+					<div class="row align-items-center">
+					
+						</div>
+							
+							
 						<a class="col single-img">
 							<img class="d-block mx-auto" src="<?php echo base_url(); ?>template/img/l1.png ">
 						</a>
@@ -121,7 +130,7 @@
 					<div class="row justify-content-center">
 						<div class="col-lg-10">
 							<h1 class="text-white">Ikuti Pameran Ini Segera</h1>
-							
+							<br>
 							<a class="callaction-btn" href="#">Ketentuan Lihat Diatas</a>	
 							
 						</div>
