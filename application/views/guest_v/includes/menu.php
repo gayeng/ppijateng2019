@@ -19,7 +19,9 @@
 				</div>
 			</section>
 			<!-- End banner Area -->				
-	
+	<br>
+			<!-- Start home-video Area -->
+			
 			<!-- Start home-video Area -->
 			<section class="home-video-area">
 				<div class="container-fluid">
@@ -34,19 +36,23 @@
 								
 							</p>
 						</div>
-						<section class="video-area col-lg-6 no-padding">
-							<div class="overlay overlay-bg"></div>
-							<div class="containers">
-								<div class="video-content">
-									<img class="img-fluid" src="<?php echo base_url(); ?>template/img/inovasi.jpg" width="86%">
-								</div>
-							</div>
-						</section>											
-					</div>
-				</div>	
-			</section>
+						
+						<section class="home-video-area">
+				<div class="container-fluid">
+					
+				
+			<div class="container-fluid">
+			
+			<div class="row">
+						<div class="col-lg-3 bg-secondary">
+						
+					<img class="img-fluid" src="<?php echo base_url(); ?>template/img/inovasi.jpg" width="900%">
+						</section>
+						
+						</section>
+						
 			<!-- End home-aboutus Area -->
-
+</br>
 
 			<!-- Start home-aboutus Area -->
 			<section class="home-aboutus-area">

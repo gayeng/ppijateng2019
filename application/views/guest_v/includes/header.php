@@ -44,7 +44,7 @@
 			    <div class="container">
 			    	<div class="row align-items-center justify-content-between d-flex">
 				      <div id="logo">
-				  <img src="<?php echo base_url(); ?>template/img/logo.png" alt=" " title="">
+				  <font size="6px" color="#8ab92d" >PPI Jateng </font>
 						
 				      </div>
 				      <nav id="nav-menu-container">
