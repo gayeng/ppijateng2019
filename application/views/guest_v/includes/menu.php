@@ -44,7 +44,7 @@
 			<div class="container-fluid">
 			
 			<div class="row">
-						<div class="col-lg-3 bg-secondary">
+						<div class="col">
 						
 					<img class="img-fluid" src="<?php echo base_url(); ?>template/img/inovasi.jpg" width="900%">
 						</section>
