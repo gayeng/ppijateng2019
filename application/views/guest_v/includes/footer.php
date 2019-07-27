@@ -46,7 +46,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
   			
 			<script src="<?php echo base_url(); ?>template/js/easing.min.js"></script>				
 			
-			<script src="<?php echo base_url(); ?>template/js/hoverIntent.js"></script>			
+			<script src="<?php echo base_url(); ?>template/js/hoverIntent.js"></script>		
+<script src="<?php echo base_url(); ?>template/js/grid.js"></script>					
 			
 			<script src="<?php echo base_url(); ?>template/js/superfish.min.js"></script>	
 			

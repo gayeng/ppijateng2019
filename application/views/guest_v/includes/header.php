@@ -37,6 +37,7 @@
 			<link href="<?php echo base_url(); ?>template/css/aowl.carousel.css" rel="stylesheet">
 		
 			<link href="<?php echo base_url(); ?>template/css/main.css" rel="stylesheet">
+				<link href="<?php echo base_url(); ?>template/css/grid.css" rel="stylesheet">
 		</head>
 		<body>
 

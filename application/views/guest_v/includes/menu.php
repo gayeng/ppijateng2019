@@ -22,37 +22,45 @@
 	<br>
 			<!-- Start home-video Area -->
 			
-			<!-- Start home-video Area -->
 			<section class="home-video-area">
 				<div class="container-fluid">
-					<div class="row justify-content-end align-items-center">
+					<div class="row justify-content-end align-items-left">
 						<div class="col-lg-4 no-padding about-right">
-						
-							<h1> Pameran Produk Inovasi <br>
-							Adalah</h1>
+							
+							<h1>Pameran <br>
+							Produk Inovasi</h1>
 							<p><span>We are here to listen from you deliver exellence</span></p>
 							<p>
-							mmmmmmmmmm
-								
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt 
+								ut labore et dolore.
+								magna aliqua. Ut enim ad minim. 
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore. 
+								magna aliqua. Ut enim ad minim.
 							</p>
 						</div>
-						
-						<section class="home-video-area">
-				<div class="container-fluid">
-					
-				
-			<div class="container-fluid">
 			
-			<div class="row">
-						<div class="col-lg-3 bg-secondary">
+		<div class="row">
+  <div class="col-md-12">
+
+    <div id="mdb-lightbox-ui"></div>
+
+    <div class="mdb-lightbox">
+         
+		  <img class="img-fluid" src="<?php echo base_url(); ?>template/img/inovasi.jpg" width="100%" height alt="picture">
+     </div>
+</div>
+     </section>
+  </div>
+   </div>
+
+  <!-- Grid column -->
+	  
 						
-					<img class="img-fluid" src="<?php echo base_url(); ?>template/img/inovasi.jpg" width="900%">
-						</section>
-						
-						</section>
-						
+		</br>
+					
 			<!-- End home-aboutus Area -->
-</br>
+
 
 			<!-- Start home-aboutus Area -->
 			<section class="home-aboutus-area">
