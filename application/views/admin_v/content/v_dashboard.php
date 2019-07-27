@@ -26,7 +26,7 @@
               			
 					</div>
 					<div class="box-body">
-						<h2>Halo, Admin!</h2>
+						<h2>Halo, <?php echo ucwords($this->session->userdata('username')); ?>!</h2>
 						<p>Selamat datang di web admin</p>
 						<p>Web Admin berfungsi sebagai mengubah konten yang ada pada guest situs utama atau pengunjung</p>
 						<p>Silahkan gunakan menu yang ada sebelah kiri untuk melakukan perubahan konten yang dikehendaki</p>
