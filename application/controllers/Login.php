@@ -6,14 +6,15 @@ class Login extends CI_Controller
     {
         parent::__construct();
         $this->load->model('m_login');
-        if($this->session->userdata('status') == "loged")
+        if($this->session->userdata('status') != "loged")
         {
-            redirect('admin');
+            
         }
-        else
+        else if($this->session->userdata('status')=="loged")
         {
-
+            redirect(base_url("admin"));
         }
+    
     }
 
     function index()
@@ -26,25 +27,33 @@ class Login extends CI_Controller
         $username = $this->input->post('username');
         $password = $this->input->post('password');
 
-        $where = array(
-            'username' => $username,
-            'password' => md5($password)
-        );
-
-        $cek = $this->m_login->cek_login('user',$where);
-        if($cek>0)
+        if($username && $password != null)
         {
-            $data_session = array(
-                'username' =>$username,
-                'status' => "loged"
-            );
+                    $where = array(
+                    'username' => $username,
+                    'password' => md5($password)
+                );
+                $cek = $this->m_login->cek_login("user",$where)->num_rows();
+                if($cek>0)
+                {
+                    $data_session = array(
+                        'username' => $username,
+                        'status' => "loged"
+                    );
 
-            $this->session->set_userdata($data_session);
-            redirect('admin');
+                    $this->session->set_userdata($data_session);
+                    redirect(base_url("admin"));
+
+                }
+                else 
+                {
+                    $this->session->set_flashdata('pesanError','Kombinasi Username dan Password salah!');
+                    redirect('login');
+                }
         }
-
         else
         {
+            $this->session->set_flashdata('pesanError','Kombinasi Username dan Password salah!');
             redirect('login');
         }
     }
