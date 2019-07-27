@@ -6,7 +6,10 @@ class Admin extends CI_Controller
 {
     function index()
     {
-        $this->template->load('admin_v/template','admin_v/admin/home');
+        $this->load->view('admin_v/partials/header');
+        $this->load->view('admin_v/partials/sidebar');
+        $this->load->view('admin_v/content/v_dashboard');
+        $this->load->view('admin_v/partials/footer');
     }
 }
 
