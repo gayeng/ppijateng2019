@@ -38,3 +38,4 @@
   echo $footer; ?>
 
 </body>
+</html>
