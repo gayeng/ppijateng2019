@@ -1,0 +1,198 @@
+/* --- VARS --- */
+
+  // Define colors without hastag for IE gradient fix and string for bug space when returned 
+  @color-start:     #583e7e;
+  @color-stop:      #7352a4;
+  @color-contrast:  #ffffff;
+  @navbar-height:   80px;
+
+/* --- MIXINS --- */
+  
+  // transition
+  .transition(@transition) {
+    -webkit-transition: @transition;
+            transition: @transition;
+  }
+
+  // Split element's background in 2 colors
+  .css-gradient(@from: @color-start, @to: @color-stop, @split-start: 0%, @split-stop: 100%) {
+    background-color: @from;
+    background-repeat: repeat-x;
+
+    background-image: 
+      -webkit-gradient(linear, @split-start top, @split-stop top, from(@from), to(@to));
+    background-image: 
+      -webkit-linear-gradient(left, color-stop(@from @split-start), color-stop(@to @split-stop));
+    background-image: 
+      -moz-linear-gradient(left, @from @split-start, @to @split-stop);
+    background-image: 
+      linear-gradient(to right, @from @split-start, @to @split-stop);
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@{from}', endColorstr='@{to}', GradientType=1);  /* IE6-9 */
+
+  }
+
+/* --- DEMO CONTENT--- */
+
+// reset bootstrap 
+.navbar-menu {
+  border: 0;
+  border-radius: 0;
+  
+  .navbar-collapse {
+    padding: 0;
+    border-top: 0;
+  }
+}
+
+.navbar-main {
+  margin: 0;
+}
+
+
+// main navigation
+.navbar-menu {
+  background-color: @color-stop;
+  
+  .navbar-header {  
+    padding: 7px;
+  }
+
+}
+
+.navbar-main {
+  
+  & > li {
+    
+    & > a {
+      font-size: 25px;
+      font-weight: 900;
+      color: @color-contrast;
+      text-transform: uppercase;
+
+      .transition(0.2s color ease-in-out);
+      .transition(0.2s background ease-in-out);
+
+      small {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 300;  
+        text-transform: none;
+      }
+
+      &:hover, &:focus, &.active {
+        background-color: @color-contrast;
+        color: @color-start;
+        
+        small {
+          color: #000;
+        }
+        
+      }
+      
+    }
+    
+  }
+  
+}
+
+@media (min-width: 768px) {
+
+  .navbar-main-container {
+    .css-gradient(@color-stop, @color-start, 50%, 50%);
+
+    .navbar-nav {
+      float: none;
+    }
+
+  }
+
+  .navbar-main {
+    margin: 0 auto;
+    // add padding for last arrow - keep menu perfectly centred
+    padding-right: (@navbar-height/2);
+    max-width: 730px;
+
+    li {
+      display: inline-block;
+      height: @navbar-height;
+      position: relative;
+      width: 33.3%;
+
+      .css-gradient();
+
+      // apply first arrow on <li> element so it's not clickable / hover
+      &:first-child:before {
+        border: (@navbar-height/2) solid transparent;
+        border-left-color: @color-stop;
+        border-right: 0;
+        content: " ";
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0px;
+        width: 0px;
+        z-index: 10;
+      }
+
+      a {
+        display: table;
+        height: 100%;
+        padding: 0 0 0 (@navbar-height/2 + @navbar-height/3);
+        position: relative;
+        width: 100%;  
+
+        // apply arrow design on <a> element so arrow is clickable with pointer cursor on hover
+        &:after {
+          border: (@navbar-height/2) solid transparent;
+          border-left-color: @color-stop;
+          border-right: 0;
+          content: " ";
+          display: block;
+          position: absolute;
+          right: -(@navbar-height/2);
+          top: 0px;
+          width: 0px;
+          z-index: 10;
+
+          .transition(0.2s border-color ease-in-out);
+        }
+
+        &:hover, &.active {
+
+          &:after {
+            border-left-color: @color-contrast;    
+          }
+
+        }
+
+        span {
+          display: table-cell;
+          vertical-align: middle;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+
+@media (min-width: 992px) {
+  
+  .navbar-main {
+    max-width: 980px;
+    
+    li {
+      
+      a {
+        padding: 0 0 0 @navbar-height;
+      }
+        
+    }
+    
+  }
+  
+}

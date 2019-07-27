@@ -1,18 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Admin - <?php echo $title; ?></title>
-  
-</head>
-<body>
 
-  <?php 
+<?php 
   /*
    * Variabel $headernya diambil dari libraries template.php
    * (application/libraries/template.php)
    * */
   echo $header; ?>
+
+  
 	
 <?php 
   /*
@@ -38,3 +34,4 @@
   echo $footer; ?>
 
 </body>
+</html>
