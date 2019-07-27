@@ -3,7 +3,7 @@
       <b>Version</b> 0.0.1
     </div>
     <strong>Copyright &copy; 2019 PPI Jawa Tengah </strong>. All rights
-    reserved. made with love <a href="https://adminlte.io">AdminLTE</a>
+    reserved. made with <span style="color:red"><i class="fa fa-heart"></i></span> <a href="https://adminlte.io">AdminLTE</a>
   </footer>
 
 </div>
@@ -46,3 +46,12 @@
 <script src="<?php echo base_url() ?>template/admin/dist/js/pages/dashboard.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="<?php echo base_url() ?>template/admin/dist/js/demo.js"></script>
+
+<script>
+
+window.setTimeout(function() {
+    $(".alert").fadeTo(2000, 0).slideUp(1000, function(){
+        $(this).remove(); 
+    });
+}, 1800);
+</script> 
