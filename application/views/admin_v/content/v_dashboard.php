@@ -15,26 +15,29 @@
 	<!-- / breadcrumb -->
 
     <!-- Main content -->
-    <div class="container">
+    <section class="content">
 		<div class="row">
-		  
-		  <div class="col-md-6">
-			  
-			  <div class="card shadow mb-4">
-				<div class="card-header">
-					<h6 class="m-0 font-weight-bold text-primary">Hai, <?php echo ucwords('admin');?>!</h6>
-                </div>
-                <div class="card-body">
-                  <p class="lead">Selamat Datang!</p>
-                  <p>Ini adalah area administrator yg berfungsi untuk mengelola surat perizinan </p>
-                  <p>Ada beberapa fitur bisa terlihat dibagian sidebar</p>
-                </div>
-              </div>
-			  
-		  </div>
-	  
-	  </div>
-    </div>
+			<div class="col-md-12">
+				<div class="box box-info">
+					<div class="box-header">
+						<i class="fa fa-info-circle text-primary"></i>
+						<h3 class="box-title">Informasi</h3>
+              			
+              			
+					</div>
+					<div class="box-body">
+						<h2>Halo, Admin!</h2>
+						<p>Selamat datang di web admin</p>
+						<p>Web Admin berfungsi sebagai mengubah konten yang ada pada guest situs utama atau pengunjung</p>
+						<p>Silahkan gunakan menu yang ada sebelah kiri untuk melakukan perubahan konten yang dikehendaki</p>
+					</div>
+					
+				</div>
+			</div>
+			
+			
+		</div>
+	  </section>
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
