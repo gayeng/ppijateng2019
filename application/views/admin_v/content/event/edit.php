@@ -19,7 +19,7 @@
 			</div>
 			<?php } ?>
 		</div>
-		<input type="submit" value="submit">
+		
 	</form>
 </div>
 
