@@ -25,6 +25,8 @@
 	  <link rel="stylesheet" href="<?php echo base_url() ?>template/admin/bower_components/bootstrap-daterangepicker/daterangepicker.css">
 	  <!-- bootstrap wysihtml5 - text editor -->
 	  <link rel="stylesheet" href="<?php echo base_url() ?>template/admin/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+	<!-- DataTables -->
+	<link rel="stylesheet" href="<?php echo base_url() ?>template/admin/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
 
 	  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,12 +38,12 @@
 	  <!-- Google Font -->
 	  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
-<body class="hold-transition skin-blue sidebar-mini">
+<body class="hold-transition skin-green sidebar-mini">
 <div class="wrapper">
 
   <header class="main-header">
     <!-- Logo -->
-    <a href="index2.html" class="logo">
+    <a href="<?php echo base_url('admin') ?>" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini">PPI</span>
       <!-- logo for regular state and mobile devices -->
@@ -76,8 +78,19 @@
            
               <!-- Menu Footer-->
               <li class="user-footer">
-                
-                  <a href="<?php echo base_url() ?>logout" class="btn btn-default btn-block btn-flat "><span class="" style="color:green;">Keluar</span></a>
+				  <div class="row">
+					  <div class="col-md-6">
+						  <a href="#" class="btn btn-default btn-block btn-flat"><span class="" style="color:green;"><i class="fa fa-pencil-square-o"></i> Edit</span></a>
+					  </div>
+					  <div class="col-md-6">
+						  <a href="<?php echo base_url() ?>logout" class="btn btn-default btn-block btn-flat "><span class="" style="color:green;"><i class="fa fa-sign-out"></i> Keluar</span></a>
+					  </div>
+				  </div>
+				 
+				  
+					  
+				
+				
                 
               </li>
             </ul>
@@ -87,3 +100,17 @@
       </div>
     </nav>
   </header>
+
+<?php if ($this->session->flashdata('msg_success')) { ?>
+<div class="alert alert-success alert-dismissible" style="position:fixed; bottom:0; left:30px; z-index:9999; width:400px;">
+	<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+	<h4><i class="icon fa fa-check"></i> Sukses!</h4> <?= $this->session->flashdata('msg_success') ?>
+</div>
+<?php } ?>
+	
+<?php if ($this->session->flashdata('msg_error')) { ?>
+<div class="alert alert-danger alert-dismissible" style="position:fixed; bottom:0; left:30px; z-index:9999; width:400px;">
+	<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+	<h4><i class="icon fa fa-ban"></i> Kesalahan!</h4> <?= $this->session->flashdata('msg_error') ?>
+	</div>
+<?php } ?>

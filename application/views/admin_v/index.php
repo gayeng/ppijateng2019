@@ -33,5 +33,12 @@
    * */
   echo $footer; ?>
 
+<?php 
+  /*
+   * Variabel $javascript diambil dari libraries template.php
+   * (application/libraries/template.php)
+   * */
+  echo $javascript; ?>
+
 </body>
 </html>

@@ -14,6 +14,7 @@ class Temp_admin{
     $data['header'] = $this->_ci->load->view('admin_v/_partials/header', $data, TRUE);
     $data['sidebar'] = $this->_ci->load->view('admin_v/_partials/sidebar', $data, TRUE);
     $data['content'] = $this->_ci->load->view($content, $data, TRUE);
+    $data['javascript'] = $this->_ci->load->view('admin_v/javascript/index', $data, TRUE);
     $data['footer'] = $this->_ci->load->view('admin_v/_partials/footer', $data, TRUE);
     
     $this->_ci->load->view('admin_v/index', $data);

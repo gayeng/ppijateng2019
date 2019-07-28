@@ -16,10 +16,9 @@
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu" data-widget="tree">
         
-        <li class="active">
+        <li class="<?php if($act=='dashboard'){echo 'active';} else{} ?>">
           <a href="<?php echo base_url('admin'); ?>">
             <i class="fa fa-dashboard"></i> <span>Dashboard</span>
-            
           </a>
          
         </li>
@@ -27,7 +26,7 @@
         
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-pie-chart"></i>
+            <i class="fa  fa-home"></i>
             <span>Beranda</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
@@ -45,29 +44,25 @@
         
         
         
-        <li class="header">HALAMAN SEMINAR</li>
+        <li class="header">HALAMAN EVENT</li>
         
-        <li class="treeview">
+        <li class="treeview <?php if($act=='addevent'||$act=='event'){echo 'active';} else{} ?>">
           <a href="#">
-            <i class="fa fa-pie-chart"></i>
-            <span>Seminar</span>
+            <i class="fa fa-calendar"></i>
+            <span>Event</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#"><i class="fa fa-circle-o"></i> Banner</a></li>
+            <li class="<?php if($act=='event'){echo 'active';} else{} ?>"><a href="<?php echo base_url() ?>admin/event"><i class="fa fa-eye"></i> Semua Event</a></li>
+            <li class="<?php if($act=='addevent'){echo 'active';} else{} ?>"><a href="<?php echo base_url() ?>admin/addEvent"><i class="fa fa-plus"></i> Tambah</a></li>
             
           </ul>
         </li>
         
         
-        
-        <li><a href="https://adminlte.io/docs"><i class="fa fa-book"></i> <span>Documentation</span></a></li>
-        <li class="header">LABELS</li>
-        <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Important</span></a></li>
-        <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
-        <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Information</span></a></li>
+      
       </ul>
     </section>
     <!-- /.sidebar -->

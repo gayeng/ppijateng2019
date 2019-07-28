@@ -4,7 +4,7 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Dashboard
+        <?php echo $title; ?>
         
       </h1>
       <ol class="breadcrumb">
@@ -18,7 +18,7 @@
     <section class="content">
 		<div class="row">
 			<div class="col-md-12">
-				<div class="box box-info">
+				<div class="box box-success">
 					<div class="box-header">
 						<i class="fa fa-info-circle text-primary"></i>
 						<h3 class="box-title">Informasi</h3>
