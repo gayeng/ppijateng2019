@@ -61,3 +61,46 @@ columns: [
 	});
   })
 </script>
+
+<script>
+	
+    
+function btnEdit(value)
+{
+    $('#modalEdit').modal('show');
+    var addr_p ="<?php echo base_url('admin/editEvent/') ?>"+value;
+    
+    $.ajax({
+        type: "GET",
+        url: addr_p,
+        dataType: "html",
+        success: function(response)
+        {
+            $("#editContainer").html(response);
+        }
+    });
+}
+
+//simpan edit
+$(".tbl-simpanedit").click(function(){
+			var data = $('.form-edit').serialize();
+            var alamat = "<?php echo base_url('admin/event') ?>";
+			$.ajax({
+				type: 'POST',
+				url: "<?php echo base_url('admin/editEvent') ?>",
+				data: data,
+				success: function() {
+                    
+                    $('.form-edit').trigger("reset");
+					$('#modalEdit').modal('hide');
+                    $('.tblku').empty();
+                    $('.tblku').load(alamat,function(){
+                        $('#eventTable').DataTable().destroy();
+  
+                        
+                    });///end of auto load
+        
+				}
+			});
+		});
+</script>

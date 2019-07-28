@@ -17,7 +17,12 @@ class M_data extends CI_Model
 
     function getAll($table)
     {
-        return $this->db->get($table);
+        return $this->db->get($table)->result();
+    }
+
+    function getWhere($table,$where)
+    {
+        return $this->db->get_where($table,$where)->result();
     }
 }
 

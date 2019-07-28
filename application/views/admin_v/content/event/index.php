@@ -19,7 +19,8 @@
     <section class="content">
               <div class="box box-success">
             <div class="box-header">
-              <h4>All Event</h4>
+				<i class="fa fa-eye"></i>
+              <h3 class="box-title">All Event</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
@@ -38,7 +39,7 @@
                   <td><?php echo $event->nama_event ?></td>
                   <td>
 					  <div class="btn-group-horizontal">
-						  <button class="btn btn-flat bg-olive"><i class="fa fa-pencil"></i></button>
+						  <button class="btn btn-flat bg-olive" value="<?php echo $event->id_event ?>"  onclick="btnEdit(this.value)"><i class="fa fa-pencil"></i></button>
 						  <button class="btn btn-flat bg-red"><i class="fa fa-trash-o"></i></button>
 					  </div>
 					  
@@ -70,3 +71,25 @@
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
+<div class="modal fade" id="modalEdit">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                
+                <h4 class="modal-title">Edit event</h4>
+              </div>
+              <div class="modal-body">
+				  <div id="editContainer">
+					  
+				  </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-default"><span class="text-green">Simpan
+                <i class="fa fa-check-circle"></i></span></button>
+              </div>
+            </div>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>

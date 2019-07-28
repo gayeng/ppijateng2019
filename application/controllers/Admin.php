@@ -35,7 +35,7 @@ class Admin extends CI_Controller
     {
         $this->data['title']='Event';
         $this->data['act']='event';
-        $this->data['event']=$this->m_data->getAll('event')->result();
+        $this->data['event']=$this->m_data->getAll('event');
         $this->temp_admin->render_page('admin_v/content/event/index',$this->data);
     }
 
@@ -74,6 +74,41 @@ class Admin extends CI_Controller
             $this->temp_admin->render_page('admin_v/content/event/add',$this->data);
         }
 
+    }
+    function editEvent($id)
+    {
+        $data = array();
+        $id = array('id_event'=>$id);
+        $this->data['event']=$this->m_data->getWhere('event',$id);
+        $this->load->view('admin_v/content/event/edit',$this->data);
+        
+    }
+
+    function updateEvent()
+    {
+        $nama_event = ucwords($this->input->post('nama_event'));
+        $cp_event = $this->input->post('cp_event');
+        $desc_event = ucfirst($this->input->post('desc_event'));
+        
+        if($nama_event && $cp_event && $desc_event!='')
+        {
+            $data = array(
+                'nama_event' => $nama_event,
+                'cp_event' => $cp_event,
+                'desc_event' => $desc_event
+            );
+            if($this->m_data->addData('event',$data)==true)
+            {
+                $this->session->set_flashdata('msg_success','Berhasil mengubah '.$nama_event);
+                redirect('admin/event');
+            }
+
+            else
+            {
+                $this->session->set_flashdata('msg_error','Maaf!, terjadi kesalahan');
+                redirect('admin/event');
+            }
+        }
     }
 }
 
