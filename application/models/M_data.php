@@ -27,14 +27,14 @@ class M_data extends CI_Model
 
     function update($table,$data,$id)
     {
-        
-        if($this->db->update($table, $data, $id))
+        $this->db->where($id);
+        if($this->db->update($table, $data))
         {
-            return true;
+            return TRUE;
         }
         else
         {
-            return false;
+            return FALSE;
         }
     }
 }

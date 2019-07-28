@@ -91,14 +91,7 @@ $(".tbl-simpanedit").click(function(){
 				data: data,
 				success: function() {
                     
-                    $('.form-edit').trigger("reset");
-					$('#modalEdit').modal('hide');
-                    $('.tblku').empty();
-                    $('.tblku').load(alamat,function(){
-                        $('#eventTable').DataTable().destroy();
-  
-                        
-                    });///end of auto load
+                   alert('Done!');
         
 				}
 			});

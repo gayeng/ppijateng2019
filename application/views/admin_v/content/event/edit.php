@@ -2,11 +2,11 @@
 <div class="box box-success">
 	<div class="box-header">
 	</div>
-	<form action="" method="post" class="form-edit">
+	<form action="<?php echo base_url() ?>admin/updateEvent" method="post" class="form-edit">
 		<div class="box-body">
 			<?php foreach($event as $event){ ?>
 			<div class="form-group">
-				<input type="hidden" disabled class="form-control" name="id_event" autocomplete="off" autofocus value="<?php echo $event->id_event ?>">
+				<input type="hidden" class="form-control" name="id_event" value="<?php echo $event->id_event ?>">
 			</div>
 			<div class="form-group">
 				<input type="text" class="form-control" name="nama_event" placeholder="Nama acara :" autocomplete="off" autofocus value="<?php echo $event->nama_event ?>">
@@ -19,6 +19,7 @@
 			</div>
 			<?php } ?>
 		</div>
+		<input type="submit" value="submit">
 	</form>
 </div>
 
