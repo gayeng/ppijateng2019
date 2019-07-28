@@ -25,6 +25,8 @@
 	  <link rel="stylesheet" href="<?php echo base_url() ?>template/admin/bower_components/bootstrap-daterangepicker/daterangepicker.css">
 	  <!-- bootstrap wysihtml5 - text editor -->
 	  <link rel="stylesheet" href="<?php echo base_url() ?>template/admin/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+	<!-- DataTables -->
+	<link rel="stylesheet" href="<?php echo base_url() ?>template/admin/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
 
 	  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -109,6 +111,6 @@
 <?php if ($this->session->flashdata('msg_error')) { ?>
 <div class="alert alert-danger alert-dismissible" style="position:fixed; bottom:0; left:30px; z-index:9999; width:400px;">
 	<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-	<h4><i class="icon fa fa-check"></i> Sukses!</h4> <?= $this->session->flashdata('msg_error') ?>
-</div>
+	<h4><i class="icon fa fa-ban"></i> Kesalahan!</h4> <?= $this->session->flashdata('msg_error') ?>
+	</div>
 <?php } ?>

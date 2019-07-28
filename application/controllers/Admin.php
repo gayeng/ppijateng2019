@@ -33,16 +33,17 @@ class Admin extends CI_Controller
 
     function event()
     {
-        $this->data['title']='Semua Event';
+        $this->data['title']='Event';
         $this->data['act']='event';
+        $this->data['event']=$this->m_data->getAll('event')->result();
         $this->temp_admin->render_page('admin_v/content/event/index',$this->data);
     }
 
     function addEvent()
     {
-        $nama_event = ucfirst($this->input->post('nama_event'));
+        $nama_event = ucwords($this->input->post('nama_event'));
         $cp_event = $this->input->post('cp_event');
-        $desc_event = $this->input->post('desc_event');
+        $desc_event = ucfirst($this->input->post('desc_event'));
         
         if($nama_event && $cp_event && $desc_event!='')
         {
@@ -67,8 +68,9 @@ class Admin extends CI_Controller
         else
         {
             
-            $this->data['title']='Tambah Event';
+            $this->data['title']='Event';
             $this->data['act']='addevent';
+            
             $this->temp_admin->render_page('admin_v/content/event/add',$this->data);
         }
 

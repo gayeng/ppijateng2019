@@ -14,6 +14,11 @@ class M_data extends CI_Model
             return false;
         }
     }
+
+    function getAll($table)
+    {
+        return $this->db->get($table);
+    }
 }
 
 ?>
