@@ -87,7 +87,7 @@ $(".tbl-simpanedit").click(function(){
             var alamat = "<?php echo base_url('admin/event') ?>";
 			$.ajax({
 				type: 'POST',
-				url: "<?php echo base_url('admin/editEvent') ?>",
+				url: "<?php echo base_url('admin/updateEvent') ?>",
 				data: data,
 				success: function() {
                     

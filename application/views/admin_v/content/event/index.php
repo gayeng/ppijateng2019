@@ -85,7 +85,7 @@
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-default"><span class="text-green">Simpan
+                <button type="button" class="btn btn-default"><span class="text-green tbl-simpanedit">Simpan
                 <i class="fa fa-check-circle"></i></span></button>
               </div>
             </div>

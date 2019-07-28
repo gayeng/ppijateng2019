@@ -6,6 +6,9 @@
 		<div class="box-body">
 			<?php foreach($event as $event){ ?>
 			<div class="form-group">
+				<input type="text" class="form-control" hidden name="id_event" autocomplete="off" autofocus value="<?php echo $event->id_event ?>">
+			</div>
+			<div class="form-group">
 				<input type="text" class="form-control" name="nama_event" placeholder="Nama acara :" autocomplete="off" autofocus value="<?php echo $event->nama_event ?>">
 			</div>
 			<div class="form-group">

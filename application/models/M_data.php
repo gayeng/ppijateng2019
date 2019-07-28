@@ -24,6 +24,19 @@ class M_data extends CI_Model
     {
         return $this->db->get_where($table,$where)->result();
     }
+
+    function update($table,$data,$id)
+    {
+        
+        if($this->db->update($table, $data, $id))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
 }
 
 ?>

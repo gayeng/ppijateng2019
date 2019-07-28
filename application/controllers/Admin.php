@@ -86,6 +86,7 @@ class Admin extends CI_Controller
 
     function updateEvent()
     {
+        $id_event = $this->input->post('id_event');
         $nama_event = ucwords($this->input->post('nama_event'));
         $cp_event = $this->input->post('cp_event');
         $desc_event = ucfirst($this->input->post('desc_event'));
@@ -97,7 +98,7 @@ class Admin extends CI_Controller
                 'cp_event' => $cp_event,
                 'desc_event' => $desc_event
             );
-            if($this->m_data->addData('event',$data)==true)
+            if($this->m_data->update('event',$data,$id_event)==true)
             {
                 $this->session->set_flashdata('msg_success','Berhasil mengubah '.$nama_event);
                 redirect('admin/event');
