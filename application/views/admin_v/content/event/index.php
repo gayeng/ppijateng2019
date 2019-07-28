@@ -40,7 +40,7 @@
                   <td>
 					  <div class="btn-group-horizontal">
 						  <button class="btn btn-flat bg-olive" value="<?php echo $event->id_event ?>"  onclick="btnEdit(this.value)"><i class="fa fa-pencil"></i></button>
-						  <button class="btn btn-flat bg-red"><i class="fa fa-trash-o"></i></button>
+						  <button class="btn btn-flat bg-maroon"><i class="fa fa-trash-o"></i></button>
 					  </div>
 					  
 					</td>
