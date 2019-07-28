@@ -48,7 +48,8 @@
 
     <div class="mdb-lightbox">
          
-		  <img class="img-fluid" src="<?php echo base_url(); ?>template/img/inovasi.jpg" width="100%" height alt="picture">
+		  <img class="img-fluid" src="<?php echo base_url(); ?>template/img/logo/ayo-inovasi.jpeg" width="84%" height alt="picture">
+		  
      </div>
 </div>
      </section>
@@ -68,7 +69,7 @@
 				<div class="container-fluid">
 					<div class="row align-items-center">
 					<div class="mdb-lightbox">
-		           <img class="img-fluid" src="<?php echo base_url(); ?>template/img/inovasi.jpg" width="100%" height alt="picture">
+		           <img class="img img-fluid" src="<?php echo base_url(); ?>template/img/sambutan/sambutan.jpg" height="300%" alt="picture">
                     </div>
 					  <div class="col-lg-4 no-padding about-right">
 							
