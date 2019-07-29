@@ -26,25 +26,9 @@ CREATE TABLE `event` (
   `cp_event` varchar(50) DEFAULT NULL,
   `desc_event` text,
   PRIMARY KEY (`id_event`)
-) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 /*Data for the table `event` */
-
-insert  into `event`(`id_event`,`nama_event`,`cp_event`,`desc_event`) values 
-(1,'Whaaat','sadsadasd','<p>sadsadasdsad</p>'),
-(2,'Banu','adasdasd','<p>asdasdasdasd</p>'),
-(3,'Aasdasd','sadsad','<p>sadasdasd</p>'),
-(4,'Asdasd','asdasd','<p>sadadasdasd</p>'),
-(5,'Asdasdsad','sadsadasd','<p>asdsadsadasd</p>'),
-(6,'Asdasdasdasd','asdsadsa','<p>dsadsadsadasdasd</p>'),
-(7,'Asdsadsadsa','dsadsadsad','<p>sadsadsadasdsad</p>'),
-(8,'Wqewqeqw','wqewqewqe','<p>qwewqeqweqe</p>'),
-(9,'Qwee1','wqewqeqw','<p>sdaasdasd</p>'),
-(10,'Asdasds','adsadsad','<p>sadsadasdads</p>'),
-(11,'[removed]alert&#40;\'WTF!\'&#41;;[removed]','asdasd','asdasdd'),
-(12,'Asdasdsadasdas[removed]alert&#40;\'wtfff\'&#41;;[removed]asdasdasdasdasd','-','asdsadsadsadasd'),
-(13,'Makan Kerupuk Wah','09898987897','<p>what the heckkk</p>'),
-(14,'Bad Asss','098987789','<h1><i><u>BDSM</u></i></h1><p>BaD aSs Mulitply</p>');
 
 /*Table structure for table `jenis_lomba` */
 
