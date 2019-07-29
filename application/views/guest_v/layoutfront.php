@@ -4,6 +4,7 @@
 
         <!-- menu -->
         <?php $this->load->view('guest_v/includes/menu') ?>
+
         <!-- end menu -->
 
         <!-- footer -->

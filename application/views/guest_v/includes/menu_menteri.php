@@ -22,46 +22,7 @@
 	<br>
 		
 			
-			 <!-- Grid pameran -->
-			<section class="home-video-area">
-				<div class="container-fluid">
-					<div class="row justify-content-end align-items-left">
-						<div class="col-lg-4 no-padding about-right">
-							<br>
-							<h1>Pameran <br>
-							Produk Inovasi</h1>
-							<p><span>We are here to listen from you deliver exellence</span></p>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt 
-								ut labore et dolore.
-								magna aliqua. Ut enim ad minim. 
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore. 
-								magna aliqua. Ut enim ad minim.
-							</p>
-						</div>
-  <!-- Grid foto pameran -->
-		<div class="row">
-  <div class="col-md-12">
-
-    <div id="mdb-lightbox-ui"></div>
-
-    <div class="mdb-lightbox">
-         
-		  <img class="img-fluid" src="<?php echo base_url(); ?>template/img/logo/ayo-inovasi.jpeg" width="84%" height alt="picture">
-		  
-     </div>
-</div>
-     </section>
-  </div>
-   </div>
-
-  <!-- End Grid column -->
-	  
-				
-		</br>
-					
-			<!-- End home-aboutus Area -->
+				<!-- End home-aboutus Area -->
 
 
 			<!-- Start home-aboutus Area -->
@@ -80,8 +41,8 @@
 
         <div class="col-md-4 bg">
 		<br>
-            <h4 align="center"> Bp. Menteri Ristediksi</h4>
-			<p align="center"><a href="<?php echo base_url('Menteri'); ?>">Baca Ulasan</a></p>
+            <h4 align="center"> JATENG ROBOTIC COMPETATION </h4>
+			<p align="center"> Cp : Bp.SLAMET / 0856 2904 974 </p>
 			</br>
         </div>
         <div class="col-md-4 bg">
@@ -114,65 +75,36 @@
 </div>			 
 			 
 			      <!-- End home-aboutus Area -->
-		
-<!-- Start price Area -->
-			<section class="price-area section-gap">
-				<div class="container">
-  <div class="row" style="color:black";>
-    <div class="col">
-    
-	 <br>
-    </div>
 	
-	<div class="container">
-<div class="row">
-
-        <div class="col-md-4 bg">
-		<br>
-            <h4> JATENG ROBOTIC COMPETATION </h4>
-			<p> Cp : Bp.SLAMET / 0856 2904 974 </p>
-			</br>
-			<br>
-			 <h4> JATENG VLOG COMPETATION </h4>
-			<p> Cp : Bp. AGAS NUGROHO / 0896 8813 3164 </p>
-			</br>
-			<br>
-			 <h4> JATENG GAME ONLINE COMPETATION </h4>
-			<p> Cp : Bp. OPANG / 0811 2002 811 </p>
-			</br>
-			<br>
-			 <h4> FASHION SHOW BAHAN DAUR ULANG  </h4>
-			<p> Cp : IBU KARTINI / 0857 2929 9472 </p>
-			</br>
-			
-        </div>
-        <div class="col-md-4 bg">
-            
-			
-			
-        </div>
-        <div class="col-md-4 bg">
-          <br>
-            <h4> JATENG MENCARI BAKAT DISABILITAS </h4>
-			<p> Cp : Bp.FAJAR / 0852 2501 5559 </p>
-			</br>
-			<br>
-			 <h4> PPI JATENG PHOTO CONTEST </h4>
-			<p> Cp : Bp. TARYOKO / 0811 2906 035 </p>
-			</br>
-			<br>
-			 <h4> FESTIVAL BAND PELAJAR SE-JAWA TENGAH </h4>
-			<p> Cp : BP. DHANU PRAYOGA / 0822 4251 9419 </p>
-			</br>
-			<br>
-			 <h4> KREASI LUKIS TENONG  </h4>
-			<p> Cp : BP. AGAS NUGROHO / 0896 8813 3164 </p>
-			</br>
-        </div>
-    </div>
-</div>
-
-</section>
+	<!-- Start sambutan Area -->
+			<section class="spekers-area pb-100" id="speakers">
+				<div class="container-fluid">
+					<div class="row no-padding">
+						<div class="active-speaker-carusel col-lg-12 no-padding">
+							<div class="single-speaker item">
+								<div class="container">
+									<div class="row align-items-center">
+										<div class="col-md-6 speaker-img no-padding">
+		           <img src="<?php echo base_url(); ?>template/img/sl.jpg">
+										</div>
+										<div class="col-md-6 speaker-info no-padding">
+											<h6 class="text-uppercase">Menteri Ristedikti</h6>
+											<h1 class="text-white">Prof.H,Mohammad Nasir,Drs,Ak, M.Si,Ph.D</h1>
+											<p>
+												panggil dari data admin
+											</p>
+											<p><span class="lnr lnr-phone-handset"></span>+880 (012) 8954 253</p>
+											<p><span class="lnr lnr-location"></span>alviana@gmail.com</p>
+											<ul>
+												<a href="#"><i class="fa fa-facebook"></i></a>
+												<a href="#"><i class="fa fa-twitter"></i></a>
+												<a href="#"><i class="fa fa-dribbble"></i></a>
+												<a href="#"><i class="fa fa-behance"></i></a>
+											</ul>
+										</div>
+									</div>
+								</div>								
+							</div>
 		
 			      
 			      <!-- Start brand Area -->
@@ -256,3 +188,5 @@
 			  <!-- End callaction Area -->
 			  
             </div>
+
+		
