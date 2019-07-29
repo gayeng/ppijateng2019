@@ -9,4 +9,12 @@
 </div>
 <!-- ./wrapper -->
 
+<!-- modal loader -->
+<div class="modal fade" id="loader" style="z-index:99999">
+          whatt
+	<button data-dismiss="modal">tutup</button>
+         
+        </div>
+
+
 

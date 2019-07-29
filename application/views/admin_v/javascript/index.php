@@ -40,6 +40,9 @@
 <script src="<?php echo base_url() ?>template/admin/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
 <script src="<?php echo base_url() ?>template/admin/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
 
+<!-- Initialize table event -->
+<script src="<?php echo base_url() ?>template/admin/dist/js/loadTable.js"></script>
+
 <script>
 
 window.setTimeout(function() {
@@ -48,19 +51,7 @@ window.setTimeout(function() {
     });
 }, 1800);
 </script>
-<script>
-  $(function () {
-    $('#eventTable').DataTable({
-		order: [[0, 'desc']],
-columns: [
-    { orderable: true, width: "5%" },
-    { orderable: true },
-    
-    { orderable: false, width:"10%"  }
-]
-	});
-  })
-</script>
+
 
 <script>
 	
@@ -84,15 +75,26 @@ function btnEdit(value)
 //simpan edit
 $(".tbl-simpanedit").click(function(){
 			var data = $('.form-edit').serialize();
-            var alamat = "<?php echo base_url('admin/event') ?>";
+            var alamatjs = "<?php echo base_url('template/admin/dist/js/loadTable.js') ?>";
 			$.ajax({
 				type: 'POST',
 				url: "<?php echo base_url('admin/updateEvent') ?>",
 				data: data,
 				success: function() {
-                    
-                   alert('Done!');
-        
+				//$('#loader').modal({backdrop: 'static', keyboard: false});  
+            	$('.form-edit').trigger("reset");
+					$('#modalEdit').modal('hide');
+					$('#eventTable').DataTable().destroy();
+					$("#tbl-area").load(" #tbl-area",function()
+										{
+											$.ajax({
+												url: alamatjs,
+												dataType: 'script'
+											});
+										});
+					
+					alert('Berhasil');
+					//$('#loader').modal('hide');
 				}
 			});
 		});

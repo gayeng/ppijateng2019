@@ -114,6 +114,11 @@ class Admin extends CI_Controller
             echo 'failed';
         }
     }
+
+    public function js()
+    {
+        $this->load->view('admin_v/javascript/index');
+    }
 }
 
 
