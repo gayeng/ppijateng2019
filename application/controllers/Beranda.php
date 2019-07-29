@@ -6,13 +6,16 @@ class Beranda extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
+		$this->load->library('template');
 		
 	}
 
 	public function index()
 	{
 	  
- $this->template->load('guest_v/layoutfront', 'guest_v/beranda_v'); 
+	  $this->template->render_page('guest_v/konten'); 
+	  
+
 	}
 
 	}

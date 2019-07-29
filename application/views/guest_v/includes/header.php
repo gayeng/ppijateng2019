@@ -58,17 +58,14 @@
 						<li class="menu-active">
 						  <a href="<?php echo base_url(); ?>"></i>Home</a></li>
 				          <li>
-						  <a href="<?php echo base_url('Seminar'); ?>">Seminar</a></li>
-				        <li>
-						  <a href="<?php echo base_url('Seminar'); ?>">Piala Gubenur</a></li>
-				         <li>
-						  <a href="<?php echo base_url('Seminar'); ?>">Piala Bupati</a></li>
+						  <a href="<?php echo base_url('Seminar'); ?>">Event</a></li>
+				       
 						  <li class="menu-has-children">
 						  <a href="<?php echo base_url('Lomba'); ?>">Lomba</a>
 				            <ul>
-				              <li><a href="<?php echo base_url('Lomba'); ?>">Lomba1</a></li>
+				              <li><a href="<?php echo base_url('Lomba'); ?>">Piala Gubernur</a></li>
 							  
-				              <li>  <a href="<?php echo base_url('Lombadua'); ?>">Lomba</a></li>
+				              <li>  <a href="<?php echo base_url('Lombadua'); ?>">Piala Bupati</a></li>
 				            </ul>
 				          </li>
 				        </ul>

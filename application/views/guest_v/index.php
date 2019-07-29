@@ -6,19 +6,9 @@
    * Variabel $headernya diambil dari libraries template.php
    * (application/libraries/template.php)
    * */
-  echo $header; ?>
+  echo $header; 
   
-  
-
-  
-	
-<?php 
-  /*
-   * Variabel $headernya diambil dari libraries template.php
-   * (application/libraries/template.php)
-   * */
-  echo $sidebar; ?>
-
+  ?>
 
   <?php 
   /*
@@ -35,14 +25,6 @@
    * */
   echo $footer; ?>
 
-<punyaku id="javaphp">
-<?php 
-  /*
-   * Variabel $javascript diambil dari libraries template.php
-   * (application/libraries/template.php)
-   * */
-  echo $javascript; ?>
-</punyaku>
 
 </body>
 </html>
