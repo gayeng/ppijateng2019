@@ -114,3 +114,11 @@
 	<h4><i class="icon fa fa-ban"></i> Kesalahan!</h4> <?= $this->session->flashdata('msg_error') ?>
 	</div>
 <?php } ?>
+
+<!--
+<div class="alert alert-success alert-dismissible alert-simpan" style="position:fixed; bottom:0; left:30px; z-index:9999; width:400px;">
+	<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+	<h4><i class="icon fa fa-check"></i> Sukses!</h4> Transaksi berhasil
+</div>
+
+-->

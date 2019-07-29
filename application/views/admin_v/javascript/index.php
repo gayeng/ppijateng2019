@@ -8,21 +8,14 @@
 </script>
 <!-- Bootstrap 3.3.7 -->
 <script src="<?php echo base_url() ?>template/admin/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<!-- Morris.js charts -->
-<script src="<?php echo base_url() ?>template/admin/bower_components/raphael/raphael.min.js"></script>
-<script src="<?php echo base_url() ?>template/admin/bower_components/morris.js/morris.min.js"></script>
+
 <!-- Sparkline -->
 <script src="<?php echo base_url() ?>template/admin/bower_components/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
 <!-- jvectormap -->
 <script src="<?php echo base_url() ?>template/admin/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
 <script src="<?php echo base_url() ?>template/admin/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
-<!-- jQuery Knob Chart -->
-<script src="<?php echo base_url() ?>template/admin/bower_components/jquery-knob/dist/jquery.knob.min.js"></script>
-<!-- daterangepicker -->
-<script src="<?php echo base_url() ?>template/admin/bower_components/moment/min/moment.min.js"></script>
-<script src="<?php echo base_url() ?>template/admin/bower_components/bootstrap-daterangepicker/daterangepicker.js"></script>
-<!-- datepicker -->
-<script src="<?php echo base_url() ?>template/admin/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+
+
 <!-- Bootstrap WYSIHTML5 -->
 <script src="<?php echo base_url() ?>template/admin/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
 <!-- Slimscroll -->
@@ -40,6 +33,9 @@
 <script src="<?php echo base_url() ?>template/admin/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
 <script src="<?php echo base_url() ?>template/admin/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
 
+<!-- Initialize table event -->
+<script src="<?php echo base_url() ?>template/admin/dist/js/loadTable.js"></script>
+
 <script>
 
 window.setTimeout(function() {
@@ -48,19 +44,7 @@ window.setTimeout(function() {
     });
 }, 1800);
 </script>
-<script>
-  $(function () {
-    $('#eventTable').DataTable({
-		order: [[0, 'desc']],
-columns: [
-    { orderable: true, width: "5%" },
-    { orderable: true },
-    
-    { orderable: false, width:"10%"  }
-]
-	});
-  })
-</script>
+
 
 <script>
 	
@@ -84,15 +68,26 @@ function btnEdit(value)
 //simpan edit
 $(".tbl-simpanedit").click(function(){
 			var data = $('.form-edit').serialize();
-            var alamat = "<?php echo base_url('admin/event') ?>";
+            var alamatjs = "<?php echo base_url('template/admin/dist/js/loadTable.js') ?>";
 			$.ajax({
 				type: 'POST',
 				url: "<?php echo base_url('admin/updateEvent') ?>",
 				data: data,
 				success: function() {
-                    
-                   alert('Done!');
-        
+				//$('#loader').modal({backdrop: 'static', keyboard: false});  
+            	$('.form-edit').trigger("reset");
+					$('#modalEdit').modal('hide');
+					$('#eventTable').DataTable().destroy();
+					$("#tbl-area").load(" #tbl-area",function()
+										{
+											$.ajax({
+												url: alamatjs,
+												dataType: 'script'
+											});
+										});
+					
+					alert('Berhasil');
+					//$('#loader').modal('hide');
 				}
 			});
 		});

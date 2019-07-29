@@ -45,7 +45,12 @@
 			    <div class="container">
 			    	<div class="row align-items-center justify-content-between d-flex">
 				      <div id="logo">
-				  <font size="6px" color="red" >PPI</font> || <font size="6px" color="white" >JAWA TENGAH</font>
+					  
+					  <a class="navbar-brand" href="<?php echo base_url() ?>">
+					  <img src="<?php echo base_url('template/img/logo/ppi.png') ?>" width="110" height="80"  alt="" class="img img-fluid">
+					  
+					  </a>
+				  
 						
 				      </div>
 				      <nav id="nav-menu-container">

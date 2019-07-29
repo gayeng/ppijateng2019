@@ -25,8 +25,8 @@
 			 <!-- Grid pameran -->
 			<section class="home-video-area">
 				<div class="container-fluid">
-					<div class="row justify-content-end align-items-left">
-						<div class="col-lg-4 no-padding about-right">
+					<div class="row ">
+						<div class="col-lg-7">
 							<br>
 							<h1>Pameran <br>
 							Produk Inovasi</h1>
@@ -40,17 +40,10 @@
 								magna aliqua. Ut enim ad minim.
 							</p>
 						</div>
-  <!-- Grid foto pameran -->
-		<div class="row">
-  <div class="col-md-12">
-
-    <div id="mdb-lightbox-ui"></div>
-
-    <div class="mdb-lightbox">
-         
-		  <img class="img-fluid" src="<?php echo base_url(); ?>template/img/logo/ayo-inovasi.jpeg" width="84%" height alt="picture">
-		  
-     </div>
+						<div class="col-lg-5">
+							<img src="<?php echo base_url('template/img/inov.jpg'); ?>" class="img img-fluid">
+						</div>
+ 
 </div>
      </section>
   </div>

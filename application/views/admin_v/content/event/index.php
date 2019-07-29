@@ -23,12 +23,13 @@
               <h3 class="box-title">All Event</h3>
             </div>
             <!-- /.box-header -->
-            <div class="box-body">
+            <div class="box-body" id="tbl-area">
               <table id="eventTable" class="table table-bordered table-hovered table-striped">
                 <thead>
                 <tr>
                   <th>#</th>
                   <th>Nama Event</th>
+                  
                   <th>Aksi</th>
                 </tr>
                 </thead>
@@ -37,10 +38,11 @@
                 <tr>
                   <td><?php echo $event->id_event ?></td>
                   <td><?php echo $event->nama_event ?></td>
+                  
                   <td>
 					  <div class="btn-group-horizontal">
 						  <button class="btn btn-flat bg-olive" value="<?php echo $event->id_event ?>"  onclick="btnEdit(this.value)"><i class="fa fa-pencil"></i></button>
-						  <button class="btn btn-flat bg-red"><i class="fa fa-trash-o"></i></button>
+						  <button class="btn btn-flat bg-maroon"><i class="fa fa-trash-o"></i></button>
 					  </div>
 					  
 					</td>
@@ -51,6 +53,7 @@
                 <tr>
                   <th>#</th>
                   <th>Nama Event</th>
+                  
                   <th>Aksi</th>
                 </tr>
                 </tfoot>
@@ -85,7 +88,7 @@
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-default"><span class="text-green tbl-simpanedit">Simpan
+                <button type="button" class="btn btn-default tbl-simpanedit"><span class="text-green ">Simpan
                 <i class="fa fa-check-circle"></i></span></button>
               </div>
             </div>

@@ -111,8 +111,13 @@ class Admin extends CI_Controller
         }
         else
         {
-            echo 'failed';
+            redirect('admin/event');
         }
+    }
+
+    public function js()
+    {
+        $this->load->view('admin_v/javascript/index');
     }
 }
 

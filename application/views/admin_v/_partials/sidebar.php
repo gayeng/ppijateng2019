@@ -22,7 +22,7 @@
           </a>
          
         </li>
-		  <li class="header">HALAMAN BERANDA</li>
+		  <li class="header">PENGATURAN HALAMAN BERANDA</li>
         
         <li class="treeview">
           <a href="#">
@@ -44,7 +44,7 @@
         
         
         
-        <li class="header">HALAMAN EVENT</li>
+        <li class="header">PENGATURAN HALAMAN EVENT</li>
         
         <li class="treeview <?php if($act=='addevent'||$act=='event'){echo 'active';} else{} ?>">
           <a href="#">
@@ -55,7 +55,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li class="<?php if($act=='event'){echo 'active';} else{} ?>"><a href="<?php echo base_url() ?>admin/event"><i class="fa fa-eye"></i> Semua Event</a></li>
+            <li class="<?php if($act=='event'){echo 'active';} else{} ?>"><a href="<?php echo base_url() ?>admin/event"><i class="fa fa-eye"></i> All Event</a></li>
             <li class="<?php if($act=='addevent'){echo 'active';} else{} ?>"><a href="<?php echo base_url() ?>admin/addEvent"><i class="fa fa-plus"></i> Tambah</a></li>
             
           </ul>
