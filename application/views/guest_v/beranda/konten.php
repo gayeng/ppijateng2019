@@ -55,50 +55,48 @@
 		</br>
 					
 			<!-- End home-aboutus Area -->
-
-
-			<!-- Start home-aboutus Area -->
-			<section class="home-aboutus-area">
-				<div class="container-fluid">
-					<div class="row align-items-center">
-					<div class="mdb-lightbox">
-		           <img class="img img-fluid" src="<?php echo base_url(); ?>template/img/sambutan/sambutan.jpg" height="300%" alt="picture">
-                    </div>
-					  <div class="col-lg-4 no-padding about-right">
-							
-							<h1><align="right" class="text-white"><p align="right">Sambutan Pelaksana</h1><br></p>
-							
-						  <div class="container">
-<div class="row" align="center">
-
-        <div class="col-md-4 bg">
-		<br>
-            <h4 align="center"> Bp. Menteri Ristediksi</h4>
-			<p align="center"><a href="<?php echo base_url('Menteri'); ?>">Baca Ulasan</a></p>
-			</br>
-        </div>
-        <div class="col-md-4 bg">
-            <br>
-            <h4 align="center"> JATENG MENCARI BAKAT DISABILITAS </h4>
-			<p align="center"> Cp : Bp.FAJAR / 0852 2501 5559 </p>
-			</br>
-			
-			
-        </div>
-        <div class="col-md-4 bg">
-          <br>
-            <h4 align="center"> JATENG MENCARI BAKAT DISABILITAS </h4>
-			<p align="center"> Cp : Bp.FAJAR / 0852 2501 5559 </p>
-			</br>
-        </div>
-    </div>
 </div>
 
-							
-						 
-						</div>
-					</div>
-				</div>	
+			<!-- Start home-aboutus Area -->
+			<section class="home-aboutus-area py-5">
+			
+				<div class="container-fluid">
+				<div class="row">
+				<div class="col-md-4">
+				
+				<div class="card" style="width:400px">
+				
+				<img src="<?php echo base_url(); ?>template/img/sponsor/dikti.png" alt="Lights" class="img img-fluid"  style="width:100%">
+				
+				
+				<div class="card-body">
+				<h4 class="card-title">John Doe</h4>
+				<p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+				<a href="#" class="btn btn-primary">See Profile</a>
+				</div>
+				</div>
+				</div>
+  
+  <div class="col-md-4">
+  <div class="card" style="width:400px">
+				<img class="card-img-top" src="<?php echo base_url(); ?>template/img/sponsor/dikti.png" alt="Lights" class="img-thumbnail" alt="Card image" style="width:100%">
+				<div class="card-body">
+				<h4 class="card-title">John Doe</h4>
+				<p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+				<a href="#" class="btn btn-primary">See Profile</a>
+				</div>
+				</div>
+  </div>
+				<div class="col-md-4">
+				 <div class="card" style="width:400px">
+				<img class="card-img-top" src="<?php echo base_url(); ?>template/img/sponsor/dikti.png" alt="Lights" class="img-thumbnail" alt="Card image" style="width:100%">
+				<div class="card-body">
+				<h4 class="card-title">John Doe</h4>
+				<p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+				<a href="#" class="btn btn-primary">See Profile</a>
+				</div>
+				</div>
+                </div>  		
 			</section>
 			
 			 <div>

@@ -13,7 +13,7 @@ class Beranda extends CI_Controller {
 	public function index()
 	{
 	  
-	  $this->template->render_page('guest_v/konten'); 
+	  $this->template->render_page('guest_v/beranda/konten'); 
 	  
 
 	}
