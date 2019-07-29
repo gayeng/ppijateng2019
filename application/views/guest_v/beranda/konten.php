@@ -58,15 +58,15 @@
 </div>
 
 			<!-- Start home-aboutus Area -->
-			<section class="home-aboutus-area py-5">
+			<section class="home-aboutus-area">
 			
 				<div class="container-fluid">
 				<div class="row">
-				<div class="col-md-4">
+				<div class="col-sm-4 my-4">
 				
-				<div class="card" style="width:400px">
+				<div class="card">
 				
-				<img src="<?php echo base_url(); ?>template/img/sponsor/dikti.png" alt="Lights" class="img img-fluid"  style="width:100%">
+				<img class="card-img-top img img-fluid" src="<?php echo base_url(); ?>template/img/sambutan/menteri500.png" alt="Lights" >
 				
 				
 				<div class="card-body">
@@ -77,9 +77,9 @@
 				</div>
 				</div>
   
-  <div class="col-md-4">
-  <div class="card" style="width:400px">
-				<img class="card-img-top" src="<?php echo base_url(); ?>template/img/sponsor/dikti.png" alt="Lights" class="img-thumbnail" alt="Card image" style="width:100%">
+  <div class="col-sm-4 my-4" >
+  <div class="card">
+				<img class="card-img-top img img-fluid" src="<?php echo base_url(); ?>template/img/sambutan/gubernur500.png" alt="Lights" alt="Card image" >
 				<div class="card-body">
 				<h4 class="card-title">John Doe</h4>
 				<p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
@@ -87,9 +87,9 @@
 				</div>
 				</div>
   </div>
-				<div class="col-md-4">
-				 <div class="card" style="width:400px">
-				<img class="card-img-top" src="<?php echo base_url(); ?>template/img/sponsor/dikti.png" alt="Lights" class="img-thumbnail" alt="Card image" style="width:100%">
+				<div class="col-sm-4 my-4 " >
+				 <div class="card">
+				<img class="card-img-top img img-fluid" src="<?php echo base_url(); ?>template/img/sambutan/bupati500.png" alt="Lights" alt="Card image" >
 				<div class="card-body">
 				<h4 class="card-title">John Doe</h4>
 				<p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
