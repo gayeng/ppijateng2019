@@ -24,7 +24,7 @@
             </div>
             <!-- /.box-header -->
             <div class="box-body" id="tbl-area">
-              <table id="eventTable" class="table table-bordered table-hovered table-striped">
+              <table id="eventTable" class="display table table-bordered table-hovered table-striped responsive nowrap" style="width:100%">
                 <thead>
                 <tr>
                   <th>#</th>
@@ -41,7 +41,7 @@
                   
                   <td>
 					  <div class="btn-group-horizontal">
-						  <button class="btn btn-flat bg-olive" value="<?php echo $event->id_event ?>"  onclick="btnEdit(this.value)"><i class="fa fa-pencil"></i></button>
+						  <button class="btn btn-flat bg-olive" value="<?php echo base_url() ?>admin/editEvent/<?php echo $event->id_event ?>"  onclick="btnEdit(this.value)"><i class="fa fa-pencil"></i></button>
 						  <button class="btn btn-flat bg-maroon"><i class="fa fa-trash-o"></i></button>
 					  </div>
 					  

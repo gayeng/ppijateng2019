@@ -44,6 +44,14 @@ window.setTimeout(function() {
     });
 }, 1800);
 </script>
+<script>
+	function btnTambah()
+{
+    $('#modalEdit').modal('show');
+    
+    
+}
+</script>
 
 
 <script>
@@ -52,7 +60,7 @@ window.setTimeout(function() {
 function btnEdit(value)
 {
     $('#modalEdit').modal('show');
-    var addr_p ="<?php echo base_url('admin/editEvent/') ?>"+value;
+    var addr_p =String(value);
     
     $.ajax({
         type: "GET",

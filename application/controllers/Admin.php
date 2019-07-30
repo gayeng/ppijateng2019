@@ -42,7 +42,7 @@ class Admin extends CI_Controller
     function addEvent()
     {
         $nama_event = ucwords($this->input->post('nama_event'));
-        $cp_event = $this->input->post('cp_event');
+        $cp_event = ucwords($this->input->post('cp_event'));
         $desc_event = ucfirst($this->input->post('desc_event'));
         
         if($nama_event && $cp_event && $desc_event!='')
@@ -88,7 +88,7 @@ class Admin extends CI_Controller
     {
         $id_event = array('id_event'=>$this->input->post('id_event'));
         $nama_event = ucwords($this->input->post('nama_event'));
-        $cp_event = $this->input->post('cp_event');
+        $cp_event = ucwords($this->input->post('cp_event'));
         $desc_event = ucfirst($this->input->post('desc_event'));
 
         
