@@ -115,6 +115,32 @@ class Admin extends CI_Controller
         }
     }
 
+    function lomba($index="")
+    {
+        if($index=="")
+        {
+        $this->data['title']='Lomba';
+        $this->data['act']='lomba';
+        $this->data['lomba']=$this->m_data->getAll('lomba');
+        $this->temp_admin->render_page('admin_v/content/lomba/index',$this->data);
+        }
+
+        else if($index=="gubernur")
+        {
+        $this->data['title']='Lomba Piala Gubernur';
+        $this->data['act']='gubernur';
+        $this->data['lom_gub']=$this->m_data->getWhere('lomba',array('id_jenislomba'=>1));
+        $this->temp_admin->render_page('admin_v/content/lomba/gubernur/index',$this->data);
+        }
+        else if($index=="bupati")
+        {
+        $this->data['title']='Lomba Piala Bupati';
+        $this->data['act']='bupati';
+        $this->data['lom_bup']=$this->m_data->getWhere('lomba',array('id_jenislomba'=>2));
+        $this->temp_admin->render_page('admin_v/content/lomba/bupati/index',$this->data);
+        }
+    }
+
     public function js()
     {
         $this->load->view('admin_v/javascript/index');

@@ -60,6 +60,27 @@
             
           </ul>
         </li>
+		  
+		  
+		  
+		  
+		  <li class="header">PENGATURAN HALAMAN LOMBA</li>
+        
+        <li class="treeview <?php if($act=='lomba'||$act=='gubernur'||$act=='bupati'){echo 'active';} else{} ?>">
+          <a href="#">
+            <i class="fa fa-trophy"></i>
+            <span>Lomba</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li class="<?php if($act=='lomba'){echo 'active';} else{} ?>"><a href="<?php echo base_url() ?>admin/lomba"><i class="fa fa-star-o"></i> Semua Lomba</a></li>
+			  <li class="<?php if($act=='gubernur'){echo 'active';} else{} ?>"><a href="<?php echo base_url() ?>admin/lomba/gubernur"><i class="fa fa-globe"></i> Piala Gubernur</a></li>
+            <li class="<?php if($act=='bupati'){echo 'active';} else{} ?>"><a href="<?php echo base_url() ?>admin/lomba/bupati"><i class="fa fa-building-o"></i> Piala Bupati</a></li>
+            
+          </ul>
+        </li>
         
         
       

@@ -80,10 +80,10 @@
               <li class="user-footer">
 				  <div class="row">
 					  <div class="col-md-6">
-						  <a href="#" class="btn btn-default btn-block btn-flat"><span class="" style="color:green;"><i class="fa fa-pencil-square-o"></i> Edit</span></a>
+						  <a href="#" class="btn btn-default btn-block btn-flat bg-green"><span class="">Edit <i class="fa fa-pencil-square-o"></i></span></a>
 					  </div>
 					  <div class="col-md-6">
-						  <a href="<?php echo base_url() ?>logout" class="btn btn-default btn-block btn-flat "><span class="" style="color:green;"><i class="fa fa-sign-out"></i> Keluar</span></a>
+						  <a href="<?php echo base_url() ?>logout" class="btn btn-default btn-block btn-flat bg-red"><span class=""> Keluar <i class="fa fa-sign-out"></i></span></a>
 					  </div>
 				  </div>
 				 

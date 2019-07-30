@@ -64,11 +64,11 @@
 						  <a href="<?php echo base_url('Seminar'); ?>">Event</a></li>
 				       
 						  <li class="menu-has-children">
-						  <a href="<?php echo base_url('Lomba'); ?>">Lomba</a>
+						  <a href="#">Lomba</a>
 				            <ul>
-				              <li><a href="<?php echo base_url('Lomba'); ?>">Piala Gubernur</a></li>
-							  
-				              <li>  <a href="<?php echo base_url('Lombadua'); ?>">Piala Bupati</a></li>
+				              <li><a href="<?php echo base_url('beranda/allcontest'); ?>">Semua lomba</a></li>
+							  <li><a href="<?php echo base_url('beranda/gubcontest'); ?>">Piala Gubernur</a></li>
+				              <li>  <a href="<?php echo base_url('beranda/bupcontest'); ?>">Piala Bupati</a></li>
 				            </ul>
 				          </li>
 				        </ul>

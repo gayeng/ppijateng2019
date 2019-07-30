@@ -60,9 +60,7 @@
               </table>
             
             <!-- /.box-body -->
-				<div class="box-footer clearfix">
-				updated on 2190
-            </div>
+				
           </div>
                 
               
@@ -75,7 +73,7 @@
   </div>
   <!-- /.content-wrapper -->
 <div class="modal fade" id="modalEdit">
-          <div class="modal-dialog">
+          <div class="modal-dialog modal-lg">
             <div class="modal-content">
               <div class="modal-header">
                 
@@ -87,9 +85,9 @@
 				  </div>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-default tbl-simpanedit"><span class="text-green ">Simpan
-                <i class="fa fa-check-circle"></i></span></button>
+                <button type="button" class="btn btn-default btn-flat bg-red pull-left" data-dismiss="modal">Batal <i class="fa fa-times"></i></button>
+                <button type="button" class="btn btn-default tbl-simpanedit bg-green btn-flat">Simpan
+                <i class="fa fa-check-circle"></i></button>
               </div>
             </div>
             <!-- /.modal-content -->

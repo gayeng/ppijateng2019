@@ -15,7 +15,7 @@
 				<input type="text" class="form-control" name="cp_event" placeholder="Contact person :" autocomplete="off" value="<?php echo $event->cp_event ?>">
 			</div>
 			<div>
-				<textarea class="textarea" name="desc_event" placeholder="Deskripsi acara" style="width: 100%; height: 125px; font-size: 14px; line-height: 18px; padding: 10px; resize: vertical;"><?php echo $event->desc_event ?></textarea>
+				<textarea class="textarea" name="desc_event" placeholder="Deskripsi acara" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; padding: 10px; resize: vertical;"><?php echo $event->desc_event ?></textarea>
 			</div>
 			<?php } ?>
 		</div>
