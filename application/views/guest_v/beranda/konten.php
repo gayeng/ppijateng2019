@@ -111,55 +111,55 @@
 			<section class="brand-area section-gap">
 				<div class="container">
 				<div class="row">
-  <div class="col-md-2">
-    <div class="thumbnail">
+  <div class="col-md-2 my-2">
+   
 		 <img src="<?php echo base_url(); ?>template/img/sponsor/dikti.png" alt="Lights" class="img img-fluid">
         <div class="caption">
           
         </div>
-    </div>
+  
   </div>
-  <div class="col-md-2">
-    <div class="thumbnail">
+  <div class="col-md-2 my-2">
+    
 		 <img src="<?php echo base_url(); ?>template/img/sponsor/provinsi.png" alt="Lights" class="img img-fluid">
         <div class="caption">
          
-        </div>
+       
     </div>
   </div>
   
-  <div class="col-md-2">
-    <div class="thumbnail">
+  <div class="col-md-2 my-2">
+    
 		 <img src="<?php echo base_url(); ?>template/img/sponsor/hateknas.png" alt="Lights" class="img img-fluid">
         <div class="caption">
         
         </div>
-    </div>
+    
   </div>
-  <div class="col-md-2">
-    <div class="thumbnail">
-		 <img src="<?php echo base_url(); ?>template/img/sponsor/wonosobo.jpg" alt="Lights" class="img img-fluid">
+  <div class="col-md-2 my-2">
+    
+		 <img src="<?php echo base_url(); ?>template/img/sponsor/wonosobo.png" alt="Lights" class="img img-fluid">
         <div class="caption">
         
         </div>
-    </div>
+  
   </div>
   
-  <div class="col-md-2">
-    <div class="thumbnail">
-		 <img src="<?php echo base_url(); ?>template/img/sponsor/seoul.jpg" alt="Lights" class="img img-fluid">
+  <div class="col-md-2 my-2">
+    
+		 <img src="<?php echo base_url(); ?>template/img/logo/wonosoul.png" alt="Lights" class="img img-fluid">
         <div class="caption">
         
-        </div>
+        
     </div>
   </div>
   
-   <div class="col-md-2">
-    <div class="thumbnail">
+   <div class="col-md-2 my-2">
+    
 		 <img src="<?php echo base_url(); ?>template/img/sponsor/gayeng.png" alt="Lights" class="img img-fluid">
         <div class="caption">
         
-        </div>
+       
     </div>
   </div>
   </div>

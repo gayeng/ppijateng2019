@@ -8,6 +8,5 @@
 		{ orderable: true },
 		{ orderable: false, width:"10%"  }
 		]
-		
 		});
 	});
