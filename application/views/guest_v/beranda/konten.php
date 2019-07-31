@@ -1,5 +1,5 @@
 <!-- start banner Area -->
-<section class="banner-area relative" id="home">
+<section class="banner-area relative section-gap" id="home">
 	<div class="overlay overlay-bg"></div>
 	<div class="container">
 		<div class="row fullscreen d-flex align-items-center justify-content-center">
@@ -18,7 +18,7 @@
 <!-- End banner Area -->	
 
 <!-- Grid pameran -->
-<section class="home-video-area">
+<section class="home-video-area section-gap">
 	<div class="container-fluid">
 		<div class="row ">
 			<div class="col-lg-7">
@@ -39,10 +39,10 @@
 
 
 <!-- Start Sambutan -->
-<section class="home-aboutus-area">
+<section class="home-aboutus-area section-gap">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-sm-4 my-4">
+			<div class="col-sm-4">
 				<div class="card">
 					<img class="card-img-top img img-fluid" src="<?php echo base_url(); ?>template/img/sambutan/menteri500.png" alt="Lights" >
 					<div class="card-body">
@@ -53,7 +53,7 @@
 				</div>
 			</div>
 			
-			<div class="col-sm-4 my-4" >
+			<div class="col-sm-4" >
 				<div class="card">
 					<img class="card-img-top img img-fluid" src="<?php echo base_url(); ?>template/img/sambutan/gubernur500.png" alt="Lights" alt="Card image" >
 					<div class="card-body">
@@ -63,7 +63,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-4 my-4 " >
+			<div class="col-sm-4" >
 				<div class="card">
 					<img class="card-img-top img img-fluid" src="<?php echo base_url(); ?>template/img/sambutan/bupati500.png" alt="Lights" alt="Card image" >
 					<div class="card-body">
@@ -127,11 +127,9 @@
 	<div class="overlay overlay-bg"></div>
 	<div class="container">
 		<div class="row justify-content-center">
-			<div class="col-lg-10">
-				<h1 align="left" class="text-white">Ikuti Pameran Ini Segera</h1>
-				<div align="left">
-					<a class="callaction-btn" href="#">Ketentuan Lihat Diatas</a>
-				</div>
+			<div class="col-lg">
+				<h1 class="text-white">Ikuti Pameran Ini Segera</h1>
+				<a class="btn callaction-btn" href="#">Ketentuan Lihat Diatas</a>
 			</div>
 		</div>
 	</div>
