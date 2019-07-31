@@ -44,15 +44,12 @@ window.setTimeout(function() {
     });
 }, 1800);
 </script>
-<script>
-	function btnTambah()
-{
-    $('#modalEdit').modal('show');
-    
-    
-}
-</script>
 
+
+
+
+
+<!-- script event area -->
 
 <script>
 	
@@ -100,3 +97,43 @@ $(".tbl-simpanedit").click(function(){
 			});
 		});
 </script>
+
+
+<!-- script lomba area -->
+<script>
+	function btnTambah()
+{
+    $('#modalTambah').modal('show');
+    
+    
+}
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#saveLombaBtn").click(function(){
+			var data = $('#formTambahLomba').serialize();
+			var alamatjs = "<?php echo base_url('template/admin/dist/js/loadTable.js') ?>";
+			$.ajax({
+				type: 'POST',
+				url: "aksi.php",
+				data: data,
+				success: function() {
+					$('#formTambahLomba').trigger("reset");
+					$('#modalTambah').modal('hide');
+					$('#lombaTable').DataTable().destroy();
+					$("#tbl-area").load(" #tbl-area",function()
+										{
+											$.ajax({
+												url: alamatjs,
+												dataType: 'script'
+											});
+										});
+					
+					alert('Berhasil');
+					//$('#loader').modal('hide');
+				}
+			});
+		});
+	});
+	</script>

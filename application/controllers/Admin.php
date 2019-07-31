@@ -122,6 +122,7 @@ class Admin extends CI_Controller
         $this->data['title']='Lomba';
         $this->data['act']='lomba';
         $this->data['lomba']=$this->m_data->getAll('lomba');
+        $this->data['jenis_lomba']=$this->m_data->getAll('jenis_lomba');
         $this->temp_admin->render_page('admin_v/content/lomba/index',$this->data);
         }
 
@@ -139,6 +140,14 @@ class Admin extends CI_Controller
         $this->data['lom_bup']=$this->m_data->getWhere('lomba',array('id_jenislomba'=>2));
         $this->temp_admin->render_page('admin_v/content/lomba/bupati/index',$this->data);
         }
+    }
+
+    function addLomba()
+    {
+        $nama_lomba = ucwords($this->input->post('nama_lomba'));
+        $jenis_lomba = $this->input->post('jenis_lomba');
+        $cp_lomba = ucwords($this->input->post('cp_lomba'));
+        $desc_lomba = $this->input->post('desc_lomba');
     }
 
     public function js()

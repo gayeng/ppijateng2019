@@ -72,12 +72,51 @@
 				<h4 class="modal-title">Tambah <?php echo $title; ?></h4>
 			</div>
 			<div class="modal-body">
-				<div id="tambahContainer">
+				<div class="box box-success">
+					<div class="box-header">
+					</div>
+					<form action="" method="post" id="formTambahLomba">
+						<div class="box-body">
+							<div class="form-group">
+								<input type="text" class="form-control" name="nama_lomba" placeholder="Nama Lomba :" autocomplete="off" autofocus value="">
+							</div>
+							<div class="form-group">
+								<select name="jenis_lomba" class="form-control">
+									<option selected disabled>..::: Pilih Jenis :::..</option>
+									<?php foreach($jenis_lomba as $jenis_lomba){ ?>
+									<option value="<?php echo $jenis_lomba->id_jenislomba ?>"><?php echo $jenis_lomba->nama ?></option>
+									<?php } ?>
+								</select>
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" name="cp_lomba" placeholder="Contact person :" autocomplete="off" value="">
+							</div>
+							<div>
+								<textarea class="textarea" name="desc_lomba" placeholder="Deskripsi acara" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; padding: 10px; resize: vertical;"></textarea>
+							</div>
+							<div class="form-group">
+								<div class="row">
+									<div class="col-md-4">
+										<div style="width:100px; height:100px; background-color:red;">box</div>
+									</div>
+									<div class="col-md-8">
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+					<div class="box-footer clearfix">
+						<div class="pull-left">
+							<p><span class="text-red">Mohon diisi dengan semestinya. Contoh: Nama Lomba "Lomba Musik Lokal"</span></p>
+							<p><span class="text-red">Jika tidak memiliki contact person, bisa diisi dengan - (tanda strip)</span></p>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-default btn-flat bg-red pull-left" data-dismiss="modal">Batal <i class="fa fa-times"></i></button>
-                <button type="button" class="btn btn-default tbl-simpanedit bg-green btn-flat">Simpan <i class="fa fa-check-circle"></i></button>
+                <button type="button" class="btn btn-default bg-green btn-flat" id="saveLombaBtn">Simpan <i class="fa fa-check-circle"></i></button>
 			</div>
 		</div>
 	</div>
@@ -101,3 +140,9 @@
 		</div>
 	</div>
 </div>
+
+<!-- java script area -->
+<!-- Bootstrap WYSIHTML5 -->
+<script src="<?php echo base_url() ?>template/admin/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+
+<script>$('.textarea').wysihtml5();</script>
