@@ -43,8 +43,7 @@
 				
 		</head>
 		<body>
-
-	  <header id="header" id="home">
+			<header id="header" id="home">
 			    <div class="container">
 			    	<div class="row align-items-center justify-content-between d-flex">
 				      <div id="logo">
@@ -59,7 +58,8 @@
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
 						<li class="menu-active">
-						  <a href="<?php echo base_url(); ?>"></i>Home</a></li>
+							<a href="<?php echo base_url(); ?>">Home</a>
+						</li>
 				          <li>
 						  <a href="<?php echo base_url('Seminar'); ?>">Event</a></li>
 				       

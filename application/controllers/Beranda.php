@@ -18,6 +18,11 @@ class Beranda extends CI_Controller {
 
 	}
 
+	function event()
+	{
+		$this->template->render_page('guest_v/event/index');
+	}
+
 	}
 
 ?>

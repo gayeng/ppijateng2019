@@ -148,6 +148,12 @@ class Admin extends CI_Controller
         $jenis_lomba = $this->input->post('jenis_lomba');
         $cp_lomba = ucwords($this->input->post('cp_lomba'));
         $desc_lomba = $this->input->post('desc_lomba');
+
+        ///validasi jenis lomba
+        if($jenis_lomba==1||$jenis_lomba==2)
+        {
+            ///belom fix
+        }
     }
 
     public function js()
