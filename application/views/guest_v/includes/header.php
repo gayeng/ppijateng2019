@@ -14,7 +14,7 @@
 		<!-- meta character set -->
 		<meta charset="UTF-8">
 		<!-- Site Title -->
-		<title>PIP_2019</title>
+		<title>PPI 2019 | <?php echo $title; ?></title>
 	
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
 		
@@ -93,7 +93,7 @@
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
 						<li class="menu-active">
-							<a href="<?php echo base_url(); ?>">Home</a>
+							<a href="<?php echo base_url('beranda'); ?>">Beranda</a>
 						</li>
 				          <li>
 						  <a href="<?php echo base_url('event'); ?>">Event</a></li>

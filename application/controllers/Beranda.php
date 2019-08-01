@@ -12,21 +12,14 @@ class Beranda extends CI_Controller {
 
 	public function index()
 	{
+		$data = array();
+		$this->data['title']='Beranda';
+		$this->template->render_page('guest_v/beranda/konten',$this->data); 
 	  
-	  $this->template->render_page('guest_v/beranda/konten'); 
-	  
 
 	}
 
-	function event()
-	{
-		$this->template->render_page('guest_v/event/index');
-	}
-
-	function jajal()
-	{
-		$this->template->render_page('jajal/index');
-	}
+	
 
 	}
 

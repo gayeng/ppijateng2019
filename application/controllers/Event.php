@@ -12,7 +12,9 @@ class Event extends CI_Controller {
 
     function index()
     {
-        $this->template->render_page('guest_v/event/index');
+        $data = array();
+		$this->data['title']='Event';
+        $this->template->render_page('guest_v/event/index',$this->data);
     }
 
 }

@@ -12,17 +12,23 @@ class Lomba extends CI_Controller {
 
     function index()
     {
-        $this->template->render_page('guest_v/lomba/index');
+        $data = array();
+		$this->data['title']='Lomba';
+        $this->template->render_page('guest_v/lomba/index',$this->data);
     }
 
     function gubernur()
     {
-        $this->template->render_page('guest_v/lomba/gubcontest');
+        $data = array();
+		$this->data['title']='Piala Gubernur';
+        $this->template->render_page('guest_v/lomba/gubcontest',$this->data);
     }
 
     function bupati()
     {
-        $this->template->render_page('guest_v/lomba/bupcontest');
+        $data = array();
+		$this->data['title']='Piala Bupati';
+        $this->template->render_page('guest_v/lomba/bupcontest',$this->data);
     }
 
 }
