@@ -23,6 +23,11 @@ class Beranda extends CI_Controller {
 		$this->template->render_page('guest_v/event/index');
 	}
 
+	function jajal()
+	{
+		$this->template->render_page('jajal/index');
+	}
+
 	}
 
 ?>

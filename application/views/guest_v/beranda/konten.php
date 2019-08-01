@@ -80,46 +80,68 @@
 		
 <!-- Start Sponsor -->
 <section class="brand-area section-gap">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-2 my-2">
-				<img src="<?php echo base_url(); ?>template/img/sponsor/dikti.png" alt="Lights" class="img img-fluid">
-				<div class="caption">
-				</div>
-			</div>
-			
-			<div class="col-md-2 my-2">
-				<img src="<?php echo base_url(); ?>template/img/sponsor/provinsi.png" alt="Lights" class="img img-fluid">
-				<div class="caption">
-				</div>
-			</div>
-			
-			<div class="col-md-2 my-2">
-				<img src="<?php echo base_url(); ?>template/img/sponsor/hateknas.png" alt="Lights" class="img img-fluid">
-				<div class="caption">
-				</div>
-			</div>
-			
-			<div class="col-md-2 my-2">
-				<img src="<?php echo base_url(); ?>template/img/sponsor/wonosobo.png" alt="Lights" class="img img-fluid">
-				<div class="caption">
-				</div>
-			</div>
-			
-			<div class="col-md-2 my-2">
-				<img src="<?php echo base_url(); ?>template/img/logo/wonosoul.png" alt="Lights" class="img img-fluid">
-				<div class="caption">
-				</div>
-			</div>
-			
-			<div class="col-md-2 my-2">
-				<img src="<?php echo base_url(); ?>template/img/sponsor/gayeng.png" alt="Lights" class="img img-fluid">
-				<div class="caption">
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+				<div class="container">
+				<div class="row">
+  <div class="col-md-2 my-2">
+   		 <a href="https://ristekdikti.go.id/">
+		 <img src="<?php echo base_url(); ?>template/img/sponsor/dikti.png" alt="Lights" class="img img-fluid">
+		 </a>
+        <div class="caption">
+          
+        </div>
+  
+  </div>
+  <div class="col-md-2 my-2">
+         <a href="https://jatengprov.go.id/">
+		 <img src="<?php echo base_url(); ?>template/img/sponsor/provinsi.png" alt="Lights" class="img img-fluid">
+		 </a>
+        <div class="caption">
+         
+       
+    </div>
+  </div>
+  
+  <div class="col-md-2 my-2">
+    	 <a href="https://hakteknas.ristekdikti.go.id/">
+		 <img src="<?php echo base_url(); ?>template/img/sponsor/hateknas.png" alt="Lights" class="img img-fluid">
+		</a>
+        <div class="caption">
+        
+        </div>
+    
+  </div>
+  <div class="col-md-2 my-2">
+    	 <a href="https://wonosobokab.go.id/">
+		 <img src="<?php echo base_url(); ?>template/img/sponsor/wonosobo.png" alt="Lights" class="img img-fluid">
+		</a>
+        <div class="caption">
+        
+        </div>
+  
+  </div>
+  
+  <div class="col-md-2 my-2">
+    	<a href="https://bappeda.wonosobokab.go.id/2018/07/24/branding-wonosobo-the-soul-of-java/">
+		 <img src="<?php echo base_url(); ?>template/img/logo/wonosoul.png" alt="Lights" class="img img-fluid">
+		</a>
+        <div class="caption">
+        
+        
+    </div>
+  </div>
+  
+   <div class="col-md-2 my-2">
+    	<a href=https://twitter.com/provjateng">
+		 <img src="<?php echo base_url(); ?>template/img/sponsor/gayeng.png" alt="Lights" class="img img-fluid">
+		</a>
+        <div class="caption">
+        
+       
+    </div>
+  </div>
+  </div>
+ 
+			</section>
 <!-- End sponsor -->	
 						
 <!-- Start Testimoni-->
@@ -129,6 +151,7 @@
 		<div class="row justify-content-center">
 			<div class="col-lg">
 				<h1 class="text-white">Ikuti Pameran Ini Segera</h1>
+				<br>
 				<a class="btn callaction-btn" href="#">Ketentuan Lihat Diatas</a>
 			</div>
 		</div>

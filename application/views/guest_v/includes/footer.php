@@ -13,16 +13,17 @@
 						<i class="icon-heart3" aria-hidden="true"></i> <a href="https://colorlib.com" target="_blank">Colorlib</a>
 					</p>								
 				</div>
-			</div>
-		</div>
-			<div class="single-footer-widget">
-				<h6>Ikuti Sosial Media Kami</h6>
-				<div class="footer-social d-flex align-items-center" align="100" size="10%">
-					<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-					<a href="#"><i class="fa fa-twitter"></i></a>
-					<a href="#"><i class="fa fa-dribbble"></i></a>
-					<a href="#"><i class="fa fa-behance"></i></a>
+				
+				<div class="single-footer-widget">
+					<h6>Ikuti Sosial Media Kami</h6>
+					<div class="footer-social d-flex align-items-center" align="100" size="10%">
+						<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-dribbble"></i></a>
+						<a href="#"><i class="fa fa-behance"></i></a>
+					</div>
 				</div>
+			</div>
 		</div>
 	</div>
 </footer>	
@@ -55,7 +56,38 @@
 			
 			<script src="<?php echo base_url(); ?>template/js/parallax.min.js"></script>	
 			<script src="<?php echo base_url(); ?>template/mail-script.js"></script>	
-			<script src="<?php echo base_url(); ?>template/js/main.js"></script>	
+			<script src="<?php echo base_url(); ?>template/js/main.js"></script>
+
+
+
+
+<script type="text/javascript">
+    $().ready(function(){
+        $('[rel="tooltip"]').tooltip();
+
+        $('a.scroll-down').click(function(e){
+            e.preventDefault();
+            scroll_target = $(this).data('href');
+             $('html, body').animate({
+                 scrollTop: $(scroll_target).offset().top - 60
+             }, 1000);
+        });
+
+    });
+
+    function rotateCard(btn){
+        var $card = $(btn).closest('.card-container');
+        console.log($card);
+        if($card.hasClass('hover')){
+            $card.removeClass('hover');
+        } else {
+            $card.addClass('hover');
+        }
+    }
+
+
+</script>
+
 		</body>
 	</html>
 

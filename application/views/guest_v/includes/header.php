@@ -39,6 +39,42 @@
 		
 			<link href="<?php echo base_url(); ?>template/css/main.css" rel="stylesheet">
 				<link href="<?php echo base_url(); ?>template/css/grid.css" rel="stylesheet">
+				<link href="<?php echo base_url(); ?>template/css/tab.css" rel="stylesheet">
+		
+		<!-- card css -->
+		<link href="<?php echo base_url(); ?>template/card/css/rotating-card.css" rel="stylesheet">
+		<link href="<?php echo base_url(); ?>template/card/css/pe-icon-7-stroke.css" rel="stylesheet">
+		<style>
+       
+        .navbar-default .navbar-nav > li > a{
+            padding: 15px 15px;
+            margin: 5px 0;
+        }
+
+        .navbar-default{
+            padding: 10px 0;
+            background-color: rgba(255, 255, 255, 0.95);
+            border-color: transparent;
+            box-shadow: 0 0px 13px rgba(0,0,0,.2);
+        }
+        .btn-info,
+        .btn-info:hover,
+        .btn-info:focus{
+            color: #FFF !important;
+            background-color: #00bbff !important;
+            border-color: #00bbff !important;
+        }
+
+        .btn-info{
+            opacity: .8;
+            transition: all 0.1s;
+            -webkit-transition: all 0.1s;
+        }
+        .btn-info:hover,
+        .btn-info:focus{
+            opacity: 1;
+        }
+    </style>
 				
 				
 		</head>
@@ -49,10 +85,9 @@
 				      <div id="logo">
 					  
 					  <a class="navbar-brand" href="<?php echo base_url() ?>">
-					  <img src="<?php echo base_url('template/img/logo/ppi.png') ?>" width="110" height="80"  alt="" class="img img-fluid">
-					  
+					  <img src="<?php echo base_url('template/img/logo/ppi.png') ?>" alt="" class="img img-fluid" float="auto">
+					  Pameran Produk Inovasi
 					  </a>
-				  
 						
 				      </div>
 				      <nav id="nav-menu-container">
