@@ -93,7 +93,7 @@
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
 						<li class="menu-active">
-							<a href="<?php echo base_url('beranda'); ?>">Beranda</a>
+							<a href="<?php echo base_url('beranda'); ?>" class="active">Beranda</a>
 						</li>
 				          <li>
 						  <a href="<?php echo base_url('event'); ?>">Event</a></li>
