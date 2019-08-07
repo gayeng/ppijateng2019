@@ -33,18 +33,33 @@
                 <div class="form-group">
                   <input type="text" class="form-control" name="cp_event" placeholder="Contact person :" autocomplete="off"	>
                 </div>
+				<div class="form-group">
+				<div class="row">
+					<div class="col-md-2">
+						<div style="width:150px; height:150px; background-color:red;">
+							
+						</div>
+					</div>
+					<div class="col-md-10">
+						<div class="form-group">
+					<input type="file">
+				</div>
+					</div>
+				</div>
+					</div>
                 <div>
                   <textarea class="textarea" name="desc_event" placeholder="Deskripsi acara" style="width: 100%; height: 125px; font-size: 14px; line-height: 18px; padding: 10px; resize: vertical;"></textarea>
                 </div>
               
+				
             </div>
             <div class="box-footer clearfix">
 				<div class="pull-left">
 					<p><span class="text-red">Mohon diisi dengan semestinya. Contoh: nama acara "Pameran Masakan Lokal"</span></p>
 					<p><span class="text-red">Jika tidak memiliki contact person, bisa diisi dengan - (tanda strip)</span></p>
 				</div>
-              <button type="submit" class="pull-right btn btn-default"><span class="text-green">Simpan
-                <i class="fa fa-check-circle"></i></span></button>
+              <button type="submit" class="pull-right btn btn-flat bg-green">Simpan
+                <i class="fa fa-check-circle"></i></button>
             </div>
 				</form>
           </div>
