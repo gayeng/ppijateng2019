@@ -39,40 +39,24 @@
 
 
 <!-- Start Sambutan -->
-<section class="home-aboutus-area section-gap">
+<section class="home-aboutus-area py-4">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-sm-4">
-				<div class="card">
-					<img class="card-img-top img img-fluid" src="<?php echo base_url(); ?>template/img/sambutan/menteri500.png" alt="Lights" >
-					<div class="card-body">
-						<h4 class="card-title">John Doe</h4>
-						<p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-						<a href="#" class="btn btn-primary">See Profile</a>
-					</div>
+			<div class="col-md-4">
+				<div class="kotak">
+					
+				</div>
+			</div>
+			<div class="col-md-8">
+				<div class="row">
+					<div class="col-sm-12"><h3>Kata Sambitan</h3></div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 text-justify"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. magna aliqua. Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. 
+				magna aliqua. Ut enim ad minim.</p></div>
 				</div>
 			</div>
 			
-			<div class="col-sm-4" >
-				<div class="card">
-					<img class="card-img-top img img-fluid" src="<?php echo base_url(); ?>template/img/sambutan/gubernur500.png" alt="Lights" alt="Card image" >
-					<div class="card-body">
-						<h4 class="card-title">John Doe</h4>
-						<p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-						<a href="#" class="btn btn-primary">See Profile</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-4" >
-				<div class="card">
-					<img class="card-img-top img img-fluid" src="<?php echo base_url(); ?>template/img/sambutan/bupati500.png" alt="Lights" alt="Card image" >
-					<div class="card-body">
-						<h4 class="card-title">John Doe</h4>
-						<p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-						<a href="#" class="btn btn-primary">See Profile</a>
-					</div>
-				</div>
-			</div>
 		</div>
 	</div>
 </section>		 
@@ -83,7 +67,7 @@
 				<div class="container">
 				<div class="row">
   <div class="col-md-2 my-2">
-   		 <a href="https://ristekdikti.go.id/">
+   		 <a href="https://ristekdikti.go.id/" target="_blank">
 		 <img src="<?php echo base_url(); ?>template/img/sponsor/dikti.png" alt="Lights" class="img img-fluid">
 		 </a>
         <div class="caption">
@@ -92,7 +76,7 @@
   
   </div>
   <div class="col-md-2 my-2">
-         <a href="https://jatengprov.go.id/">
+         <a href="https://jatengprov.go.id/" target="_blank">
 		 <img src="<?php echo base_url(); ?>template/img/sponsor/provinsi.png" alt="Lights" class="img img-fluid">
 		 </a>
         <div class="caption">
@@ -102,7 +86,7 @@
   </div>
   
   <div class="col-md-2 my-2">
-    	 <a href="https://hakteknas.ristekdikti.go.id/">
+    	 <a href="https://hakteknas.ristekdikti.go.id/" target="_blank">
 		 <img src="<?php echo base_url(); ?>template/img/sponsor/hateknas.png" alt="Lights" class="img img-fluid">
 		</a>
         <div class="caption">
@@ -111,7 +95,7 @@
     
   </div>
   <div class="col-md-2 my-2">
-    	 <a href="https://wonosobokab.go.id/">
+    	 <a href="https://wonosobokab.go.id/" target="_blank">
 		 <img src="<?php echo base_url(); ?>template/img/sponsor/wonosobo.png" alt="Lights" class="img img-fluid">
 		</a>
         <div class="caption">
@@ -121,7 +105,7 @@
   </div>
   
   <div class="col-md-2 my-2">
-    	<a href="https://bappeda.wonosobokab.go.id/2018/07/24/branding-wonosobo-the-soul-of-java/">
+    	<a href="https://bappeda.wonosobokab.go.id/2018/07/24/branding-wonosobo-the-soul-of-java/" target="_blank">
 		 <img src="<?php echo base_url(); ?>template/img/logo/wonosoul.png" alt="Lights" class="img img-fluid">
 		</a>
         <div class="caption">
@@ -131,7 +115,7 @@
   </div>
   
    <div class="col-md-2 my-2">
-    	<a href=https://twitter.com/provjateng">
+    	<a href="https://twitter.com/provjateng" target="_blank">
 		 <img src="<?php echo base_url(); ?>template/img/sponsor/gayeng.png" alt="Lights" class="img img-fluid">
 		</a>
         <div class="caption">
@@ -140,7 +124,7 @@
     </div>
   </div>
   </div>
- 
+	</div>
 			</section>
 <!-- End sponsor -->	
 						
@@ -148,11 +132,11 @@
 <section class="callaction-area relative section-gap">
 	<div class="overlay overlay-bg"></div>
 	<div class="container">
-		<div class="row justify-content-center">
+		<div class="row ">
 			<div class="col-lg">
-				<h1 class="text-white">Ikuti Pameran Ini Segera</h1>
+				<h1 class="text-white">Testimoni</h1>
 				<br>
-				<a class="btn callaction-btn" href="#">Ketentuan Lihat Diatas</a>
+				
 			</div>
 		</div>
 	</div>

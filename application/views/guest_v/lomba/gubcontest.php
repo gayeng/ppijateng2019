@@ -4,7 +4,7 @@
 <div class="overlay overlay-bg"></div>
         <div class="container">
           <div class="row fullscreen d-flex align-items-center justify-content-center">
-            <div class="banner-content col-lg-9 col-md-12">
+            <div class="banner-content col-lg-9 col-md-12" >
               
               <h1 class="text-white">
                 Lomba-Lomba Piala Gubernur
@@ -63,13 +63,20 @@ Juri
 *tentative
 </p>
 
-<h3 class="card-title">CP Lomba : Adit</h3>
-<h3 class="card-title">Tanggal Pelaksanaan :</h3>
+<h4 class="card-title"><i class="fas fa-phone"></i> Adit</h4>
+<h4 class="card-title"><i class="far fa-calendar-alt"></i> 12 Desember 2012</h4>
             
           </div>
         </div>
       </div>
     </div>
+	
+	
+	
+	
+	
+	
+	
 
   </div>
 

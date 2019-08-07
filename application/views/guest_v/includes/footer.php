@@ -1,13 +1,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- start footer Area -->		
-<footer class="footer-area section-gap">
+<footer class="footer-area py-1">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-5 col-md-6 col-sm-6">
 				<div class="single-footer-widget">
-					<h6>Testimoni</h6>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+					
 					<p class="footer-text">
 						PPI Jawa Tengah &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Proudly to
 						<i class="icon-heart3" aria-hidden="true"></i> <a href="https://colorlib.com" target="_blank">Colorlib</a>
