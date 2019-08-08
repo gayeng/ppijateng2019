@@ -44,25 +44,61 @@ class Admin extends CI_Controller
         $nama_event = ucwords($this->input->post('nama_event'));
         $cp_event = ucwords($this->input->post('cp_event'));
         $desc_event = ucfirst($this->input->post('desc_event'));
+        $jenis_event = $this->input->post('jenis_event');
+
+
+         ///upload poster
+        $config['upload_path']          = 'template/admin/files/img/event/';
+        $config['allowed_types']        = 'png';
+        $config['max_size']             = 512;
+        $config['max_width']            = 0;
+        $config['max_height']           = 0;
+
         
-        if($nama_event && $cp_event && $desc_event!='')
+        $nmfile = 'poster - '.md5(date('d-m-Y H:m:s'));
+        $config['file_name']           = $nmfile;
+        $nmfile = $config['upload_path'].''.$config['file_name'].'.png';
+        
+
+        $this->load->library('upload', $config); ///load library upload
+
+         
+
+        
+        if($nama_event && $cp_event && $desc_event && $jenis_event!='')
         {
-            $data = array(
-                'nama_event' => $nama_event,
-                'cp_event' => $cp_event,
-                'desc_event' => $desc_event
-            );
-            if($this->m_data->addData('event',$data)==true)
+            //on upload
+            if ( ! $this->upload->do_upload('img-poster'))
             {
-                $this->session->set_flashdata('msg_success','Berhasil menambahkan '.$nama_event);
+                $error =  $this->upload->display_errors();
+                $this->session->set_flashdata('msg_error',$error);
                 redirect('admin/addEvent');
+            
+             
             }
 
             else
             {
-                $this->session->set_flashdata('msg_error','Maaf!, terjadi kesalahan');
-                redirect('admin/addEvent');
+                $data = array(
+                    'nama_event' => $nama_event,
+                    'cp_event' => $cp_event,
+                    'desc_event' => $desc_event,
+                    'id_jenisevent'=> $jenis_event
+                );
+                if($this->m_data->addData('event',$data)==true)
+                {
+                    $this->session->set_flashdata('msg_success','Berhasil menambahkan '.$nama_event);
+                    redirect('admin/addEvent');
+                }
+    
+                else
+                {
+                    $this->session->set_flashdata('msg_error','Maaf!, terjadi kesalahan');
+                    redirect('admin/addEvent');
+                }
             }
+
+            
         }
 
         else
@@ -70,7 +106,7 @@ class Admin extends CI_Controller
             
             $this->data['title']='Event';
             $this->data['act']='addevent';
-            
+            $this->data['jenis_event']=$this->m_data->getAll('jenis_event');
             $this->temp_admin->render_page('admin_v/content/event/add',$this->data);
         }
 
