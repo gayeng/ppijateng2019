@@ -48,8 +48,8 @@ class Admin extends CI_Controller
 
 
          ///upload poster
-        $config['upload_path']          = './template/admin/files/img/event/';
-        $config['allowed_types']        = 'png|jpg';
+        $config['upload_path']          = 'template/admin/files/img/event/';
+        $config['allowed_types']        = 'png';
         $config['max_size']             = 512;
         $config['max_width']            = 0;
         $config['max_height']           = 0;
@@ -65,7 +65,7 @@ class Admin extends CI_Controller
          
 
         
-        if($nama_event && $cp_event && $desc_event!='')
+        if($nama_event && $cp_event && $desc_event && $jenis_event!='')
         {
             //on upload
             if ( ! $this->upload->do_upload('img-poster'))
