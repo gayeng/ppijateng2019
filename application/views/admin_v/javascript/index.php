@@ -36,6 +36,9 @@
 <!-- Initialize table event -->
 <script src="<?php echo base_url() ?>template/admin/dist/js/loadTable.js"></script>
 
+<!-- prety image chooser -->
+<script src="<?php echo base_url() ?>template/admin/dist/js/img-chooser.js"></script>
+
 <script>
 
 window.setTimeout(function() {

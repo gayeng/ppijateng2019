@@ -21,6 +21,7 @@
             <div class="box-header">
 				<i class="fa fa-eye"></i>
               <h3 class="box-title">All Event</h3>
+					
             </div>
             <!-- /.box-header -->
             <div class="box-body" id="tbl-area">

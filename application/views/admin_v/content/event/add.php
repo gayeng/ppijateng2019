@@ -22,9 +22,11 @@
               <i class="fa fa-plus"></i>
 
               <h3 class="box-title">Tambah</h3>
+				
               
             </div>
-			<form action="<?php echo base_url('admin/addEvent') ?>" method="post">
+			
+			<?php echo form_open_multipart('admin/addEvent');?>
             <div class="box-body">
               
                 <div class="form-group">
@@ -34,19 +36,34 @@
                   <input type="text" class="form-control" name="cp_event" placeholder="Contact person :" autocomplete="off"	>
                 </div>
 				<div class="form-group">
-				<div class="row">
-					<div class="col-md-2">
-						<div style="width:150px; height:150px; background-color:red;">
-							
+								<select name="jenis_event" class="form-control">
+									<option selected disabled>..::: Jenis Event :::..</option>
+									<?php foreach($jenis_event as $jenis_event){ ?>
+									<option value="<?php echo $jenis_event->id_jenisevent ?>"><?php echo ucwords($jenis_event->nama) ?></option>
+									<?php } ?>
+								</select>
+							</div>
+				
+				<div class="form-group">
+					<div class="file-upload">
+						<button class="file-upload-btn" type="button" onclick="$('.file-upload-input').trigger( 'click' )">Tambah Poster</button>
+						<div class="image-upload-wrap">
+							<input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" name="img-poster"/>
+							<div class="drag-text">
+								<h3>Drag and drop a file</h3>
+							</div>
+						</div>
+						<div class="file-upload-content">
+							<img class="file-upload-image" src="#" alt="your image" />
+							<div class="image-title-wrap">
+								<button type="button" onclick="removeUpload()" class="remove-image">Hapus <span class="image-title">Uploaded Image</span></button>
+							</div>
 						</div>
 					</div>
-					<div class="col-md-10">
-						<div class="form-group">
-					<input type="file">
-				</div>
-					</div>
-				</div>
-					</div>
+                </div>
+				
+				
+					
                 <div>
                   <textarea class="textarea" name="desc_event" placeholder="Deskripsi acara" style="width: 100%; height: 125px; font-size: 14px; line-height: 18px; padding: 10px; resize: vertical;"></textarea>
                 </div>
