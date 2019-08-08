@@ -16,10 +16,56 @@
 </section>
 <div class="container">
 
-	 <h1 class="mt-4 mb-3">Lomba-lomba
-      <small>Piala Bupati</small>
+   <h1 class="mt-4 mb-3">
+      <small></small>
     </h1>
+ <div class="container"> 
+ <section class="home-aboutus-area py-4">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-4">
+		
+			 <h2> <font color="white">Lomba Piala Bupati Yang Di Perlombakan</font></h2>
+			</div>
+			</br>
+			</section>
+			
+    <div>
+	<br>
+	</br>
+	</div>
+     <div class="row justify-content-md-center" >
+         <div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/robot.png" alt="Lights" class="img img-fluid">
+		
+		</a></div>
 
+          <div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/vlog.png" alt="Lights" class="img img-fluid">
+		
+		</a></div>
+        <div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/game.png" alt="Lights" class="img img-fluid">
+	    </p>
+		</a></div>
+         <div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/fashion.png" alt="Lights" class="img img-fluid">
+		</a></div>
+         <div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/dissabilitas.png" alt="Lights" class="img img-fluid">
+		</a></div>
+         <div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/foto.png" alt="Lights" class="img img-fluid">
+		</a></div>
+		<div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/band.png" alt="Lights" class="img img-fluid">
+		</a></div>
+		<div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/lukis.png" alt="Lights" class="img img-fluid">
+		</a></div>
+        
+      </div>
+	   </div>
+	  <br>
+	 <section class="home-aboutus-area py-4">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-4">
+			</div>
+			</br>
+			</section>
     <!-- Blog Post -->
     <div class="card mb-4">
       <div class="card-body">

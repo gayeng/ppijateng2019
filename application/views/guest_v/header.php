@@ -24,6 +24,8 @@
 			
 			<link href="<?php echo base_url(); ?>template/css/linearicons.css" rel="stylesheet">
 			
+			<link href="<?php echo base_url(); ?>template/css/hover.css" rel="stylesheet">
+			
 			<link href="<?php echo base_url(); ?>template/css/font-awesome.min.css" rel="stylesheet">
 			
 			<link href="<?php echo base_url(); ?>template/css/bootstrap.css" rel="stylesheet">
