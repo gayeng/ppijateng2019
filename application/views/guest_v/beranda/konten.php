@@ -44,28 +44,7 @@ Pameran PPI 2019 diselenggarakan bersamaan "Wonosobo Multi Event 2019". </p>
 <!-- End Grid pameran -->
 
 
-<<<<<<< HEAD
 
-=======
-<!-- Start Sambutan -->
-<section class="home-aboutus-area section-gap">
-	<div class="container-fluid">
-		<div class="row">
-			
-			<div class="col-md-12">
-				<div class="row">
-					<div class="col-sm-12"><h3>Kata Sambutan</h3></div>
-				</div>
-				<div class="row">
-					<div class="col-sm-12 text-justify"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. magna aliqua. Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. 
-				magna aliqua. Ut enim ad minim.</p></div>
-				</div>
-			</div>
-			
-		</div>
-	</div>
-</section>		 
->>>>>>> b4419ee7116e647034602fd73a5152ed00fd9f03
 <!-- End Sambutan -->
 		
 <!-- Start Sponsor -->
@@ -138,52 +117,13 @@ Pameran PPI 2019 diselenggarakan bersamaan "Wonosobo Multi Event 2019". </p>
 <section class="callaction-area relative section-gap">
 	<div class="overlay overlay-bg"></div>
 	<div class="container">
-		 <div class="row justify-content-md-center" >
-		
-        <div class="col-sm-5">
-		<h4> LOMBA INOVASI TEKNOLOGI PERTANIAN WONOSOBO 2019 </h4>
-		<p><span>
-		Lomba ini dimaksudkan agar generasi muda milenial petani memiliki ketertarikan dan akses terhadap berbagai perkembangan teknologi pertanian.
-		Diharapkan pemanfaatan teknologi pertanian yang tepat dapat menurunkan biaya produksi, sehingga produk pertanian Wonosobo lebih kompetitif serta margin keuntungan yang diterima petani lebih baik.
-		</p></span>
-		</div>
-		
-		
-		<div class="col-sm-5">
-		<h4> SEMINAR TEKNOLOGI " Pemuda, Inovasi dan Teknologi " </h4>
-		<p><span>
-		Seminar teknologi ini dimaksudkan sebagai upaya mendorong dan memotivasi para pemuda dan pelajar di Kabupaten Wonosobo 
-		agar lebih kreatif dan inovatif, serta memiliki keinginan yang kuat untuk menguasai Ilmu Pengetahuan dan Teknologi (IPTEK). 
-		Dengan menghadirkan narasumber tokoh-tokoh pemuda yang telah sukses dalam bidang teknologi.
-		</p></span>
-		</div>
-		
-        <div class="col-sm-5">
-		<h4> KEMITRAAAN USAHA (MINI EXPO dan TEMU BISNIS) </h4>
-		<p><span>
-		Kegiatan  ini adalah ajang untuk mempertemukan para pelaku usaha antara pelaku usaha mikro, kecil, dan menengah, 
-		sehingga diharapkan bisa terfasilitasi adanya kemitraan usaha maupun link and match diantara para pelaku usaha tersebut.
-		</p></span>
-		</div>
+		<div class="row ">
+			<div class="col-lg">
+			 <div class="row">
        
-	   <div class="col-sm-5">
-		<h4> FESTIVAL KULINER WONOSOBO 2019 </h4>
-		<p><span>
-		Bazaar kuliner dan demonstrasi memasak kuliner khas Kabupaten Wonosobo serta festival jajanan pasar yang diikuti oleh
-		seluruh Kecamatan di Kabupaten Wonosobo.Dimeriahkan dengan Pembuatan Gunungan Bucu Pendem & Pembagian 1000 Cup Mie Ongklok.
-		</p></span>
+			</div>
 		</div>
-		
-		<div class="col-sm-4">
-		<h4> PAMERAN dan LOMBA POSYANTEK TEKNOLOGI TEPAT GUNA </h4>
-		<p><span>
-		Pameran dan Lomba Pos Pelayanan Teknologi Tepat Guna (Posyantek TTG) ini merupakan ajang transfer informasi teknologi serta promosi
-		berbagai kegiatan yang telah dilakukan oleh Posyantek TTG yang ada di setiap kecamatan di Kabupaten Wonosobo. 
-		</p></span>
-		</div>
-		
-		
-		
+		<br>
 	</div>
 </section>
 <!-- End Testimoni -->
