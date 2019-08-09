@@ -44,7 +44,28 @@ Pameran PPI 2019 diselenggarakan bersamaan "Wonosobo Multi Event 2019". </p>
 <!-- End Grid pameran -->
 
 
+<<<<<<< HEAD
 
+=======
+<!-- Start Sambutan -->
+<section class="home-aboutus-area section-gap">
+	<div class="container-fluid">
+		<div class="row">
+			
+			<div class="col-md-12">
+				<div class="row">
+					<div class="col-sm-12"><h3>Kata Sambutan</h3></div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 text-justify"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. magna aliqua. Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. 
+				magna aliqua. Ut enim ad minim.</p></div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</section>		 
+>>>>>>> b4419ee7116e647034602fd73a5152ed00fd9f03
 <!-- End Sambutan -->
 		
 <!-- Start Sponsor -->
