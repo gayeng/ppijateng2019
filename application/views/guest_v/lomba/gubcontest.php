@@ -44,7 +44,7 @@
           <div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/vlog.png" alt="Lights" class="img img-fluid">
 		
 		</a></div>
-        <div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/game.png" alt="Lights" class="img img-fluid">
+        <div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/gameonline.png" alt="Lights" class="img img-fluid">
 	    </p>
 		</a></div>
          <div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/fashion.png" alt="Lights" class="img img-fluid">

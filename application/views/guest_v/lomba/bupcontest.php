@@ -35,26 +35,30 @@
 	</br>
 	</div>
      <div class="row justify-content-md-center" >
-         <div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/robot.png" alt="Lights" class="img img-fluid">
-		
-		</a></div>
+         
 
-          <div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/vlog.png" alt="Lights" class="img img-fluid">
+          <div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/domba.png" alt="Lights" class="img img-fluid">
 		
 		</a></div>
-        <div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/game.png" alt="Lights" class="img img-fluid">
+        <div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/pertanian.png" alt="Lights" class="img img-fluid">
 	    </p>
 		</a></div>
-         <div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/fashion.png" alt="Lights" class="img img-fluid">
+         <div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/pelajar.png" alt="Lights" class="img img-fluid">
 		</a></div>
-         <div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/dissabilitas.png" alt="Lights" class="img img-fluid">
+         <div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/sampah.png" alt="Lights" class="img img-fluid">
 		</a></div>
-         <div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/foto.png" alt="Lights" class="img img-fluid">
+		<div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/blog.png" alt="Lights" class="img img-fluid">
 		</a></div>
-		<div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/band.png" alt="Lights" class="img img-fluid">
+         <div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/komik.png" alt="Lights" class="img img-fluid">
 		</a></div>
-		<div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/lukis.png" alt="Lights" class="img img-fluid">
+		<div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/selfi.png" alt="Lights" class="img img-fluid">
 		</a></div>
+		<div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/puisi.png" alt="Lights" class="img img-fluid">
+		</a></div>
+		
+		<div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/game.png" alt="Lights" class="img img-fluid">
+		</a></div>
+		
         
       </div>
 	   </div>
