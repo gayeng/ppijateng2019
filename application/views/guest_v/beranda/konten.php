@@ -42,14 +42,10 @@
 <section class="home-aboutus-area py-4">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-4">
-				<div class="kotak">
-					
-				</div>
-			</div>
-			<div class="col-md-8">
+			
+			<div class="col-md-12">
 				<div class="row">
-					<div class="col-sm-12"><h3>Kata Sambitan</h3></div>
+					<div class="col-sm-12"><h3>Kata Sambutan</h3></div>
 				</div>
 				<div class="row">
 					<div class="col-sm-12 text-justify"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. magna aliqua. Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. 
