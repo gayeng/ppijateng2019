@@ -39,7 +39,7 @@
 
 
 <!-- Start Sambutan -->
-<section class="home-aboutus-area py-4">
+<section class="home-aboutus-area section-gap">
 	<div class="container-fluid">
 		<div class="row">
 			
