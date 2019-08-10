@@ -24,24 +24,52 @@ CREATE TABLE `event` (
   `id_event` int(11) NOT NULL AUTO_INCREMENT,
   `nama_event` varchar(255) DEFAULT NULL,
   `cp_event` varchar(50) DEFAULT NULL,
+  `poster` text,
   `desc_event` text,
-  PRIMARY KEY (`id_event`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `id_jenisevent` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id_event`),
+  KEY `id_jenisevent` (`id_jenisevent`),
+  CONSTRAINT `event_ibfk_1` FOREIGN KEY (`id_jenisevent`) REFERENCES `jenis_event` (`id_jenisevent`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
 
 /*Data for the table `event` */
+
+insert  into `event`(`id_event`,`nama_event`,`cp_event`,`poster`,`desc_event`,`id_jenisevent`) values 
+(1,'Seminar Nasional Parangtritis','Banu : 08658673233',NULL,'<h1><u>PARANGTRITIS RUSH!</u></h1><p>Adalah acara penyerbuan pantai prangtritis dengan mengenakan baju berwarna hijau. diduga acara ini dibuat oleh orang-orang no-life, yaitu orang-orang yang tidak memiliki tujuan hidup. waktu hanya dihabiskan untuk menghayal dan menonton anime.</p><p><u>Pricing :</u></p><ul><li>VVIP harga : Rp. 1.000 ,-</li><li>VIP harga : Rp. 500 ,-</li><li>Regular : Gratis!</li></ul><div><u>Fasilitas :</u></div><div><ul><li>VVIP : Bento, Free softdrink, Baju Parangtritis, Aksesori, Gazebo</li><li>VIP : Nasi Kotak, Minuman kemasan gelas.</li><li>Tidak ada!</li></ul><br></div><div>Ditunggu kedatangan para peserta!</div>',NULL),
+(2,'Festival Makan Kerupuk','Banu : 11212123332',NULL,'<p>ini adalah lomba paling mainstream yaitu lomba yang selalu diadakan pada tanggal sebelum 17 Agustus.</p><p><u>Pricing :</u></p><p></p><ul><li>HTM : Rp. 20.000 -,</li></ul><p></p>',NULL);
+
+/*Table structure for table `jenis_event` */
+
+DROP TABLE IF EXISTS `jenis_event`;
+
+CREATE TABLE `jenis_event` (
+  `id_jenisevent` int(11) NOT NULL AUTO_INCREMENT,
+  `nama` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id_jenisevent`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+
+/*Data for the table `jenis_event` */
+
+insert  into `jenis_event`(`id_jenisevent`,`nama`) values 
+(1,'expo'),
+(2,'seminar');
 
 /*Table structure for table `jenis_lomba` */
 
 DROP TABLE IF EXISTS `jenis_lomba`;
 
 CREATE TABLE `jenis_lomba` (
-  `id_jenislomba` int(2) NOT NULL,
+  `id_jenislomba` int(11) NOT NULL AUTO_INCREMENT,
   `nama` varchar(100) NOT NULL,
   `deskripsi` varchar(200) NOT NULL,
   PRIMARY KEY (`id_jenislomba`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
 
 /*Data for the table `jenis_lomba` */
+
+insert  into `jenis_lomba`(`id_jenislomba`,`nama`,`deskripsi`) values 
+(1,'Piala Gubernur','Piala Gurbernur'),
+(2,'Piala Bupati','Piala Bupati');
 
 /*Table structure for table `lomba` */
 
@@ -50,10 +78,14 @@ DROP TABLE IF EXISTS `lomba`;
 CREATE TABLE `lomba` (
   `id_lomba` int(2) NOT NULL AUTO_INCREMENT,
   `nama` varchar(100) NOT NULL,
-  `deskripsi` varchar(200) NOT NULL,
-  `foto` varchar(50) NOT NULL,
+  `deskripsi` longtext NOT NULL,
+  `cp_lomba` varchar(50) NOT NULL,
+  `poster` text NOT NULL,
+  `jenis_lomba` varchar(50) NOT NULL,
   `id_jenislomba` int(3) NOT NULL,
-  PRIMARY KEY (`id_lomba`)
+  PRIMARY KEY (`id_lomba`),
+  KEY `id_jenislomba` (`id_jenislomba`),
+  CONSTRAINT `lomba_ibfk_1` FOREIGN KEY (`id_jenislomba`) REFERENCES `jenis_lomba` (`id_jenislomba`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 /*Data for the table `lomba` */
