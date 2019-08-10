@@ -37,7 +37,7 @@
 	</br>
 	</div>
      <div class="row justify-content-md-center" >
-         <div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/robot.png" alt="Lights" class="img img-fluid">
+         <div class="col-sm-1"><a class="button" href="<?php echo base_url('Seminar'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/robot.png" alt="Lights" class="img img-fluid">
 		
 		</a></div>
 
@@ -47,7 +47,7 @@
         <div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/gameonline.png" alt="Lights" class="img img-fluid">
 	    </p>
 		</a></div>
-         <div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/fashion.png" alt="Lights" class="img img-fluid">
+         <div class="col-sm-1"><a class="button" href="<?php echo base_url('Fashionku'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/fashion.png" alt="Lights" class="img img-fluid">
 		</a></div>
          <div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/dissabilitas.png" alt="Lights" class="img img-fluid">
 		</a></div>
