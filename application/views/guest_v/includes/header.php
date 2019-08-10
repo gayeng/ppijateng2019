@@ -59,7 +59,7 @@
 					  
 					  <a class="navbar-brand" href="<?php echo base_url() ?>">
 					  <img src="<?php echo base_url('template/img/logo/ppi.png') ?>" alt="" class="img img-fluid" float="auto">
-					  Pameran Produk Inovasi
+					  
 					  </a>
 						
 				      </div>

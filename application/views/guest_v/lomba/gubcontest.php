@@ -37,25 +37,25 @@
 	</br>
 	</div>
      <div class="row justify-content-md-center" >
-         <div class="col-sm-1"><a class="button" href="<?php echo base_url('Seminar'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/robot.png" alt="Lights" class="img img-fluid">
+         <div class="col-lg-1"><a class="button" href="<?php echo base_url('Lomba/Gubernur'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/robot.png" alt="Lights" class="img img-fluid">
 		
 		</a></div>
 
-          <div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/vlog.png" alt="Lights" class="img img-fluid">
+          <div class="col-lg-1"><a class="button" href="<?php echo base_url('Vlog'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/vlog.png" alt="Lights" class="img img-fluid">
 		
 		</a></div>
-        <div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/gameonline.png" alt="Lights" class="img img-fluid">
+        <div class="col-lg-1"><a class="button" href="<?php echo base_url('Gameo'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/gameonline.png" alt="Lights" class="img img-fluid">
 	    </p>
 		</a></div>
-         <div class="col-sm-1"><a class="button" href="<?php echo base_url('Fashionku'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/fashion.png" alt="Lights" class="img img-fluid">
+         <div class="col-lg-1"><a class="button" href="<?php echo base_url('Fashionku'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/fashion.png" alt="Lights" class="img img-fluid">
 		</a></div>
-         <div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/dissabilitas.png" alt="Lights" class="img img-fluid">
+         <div class="col-lg-1"><a class="button" href="<?php echo base_url('Disabillitas'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/dissabilitas.png" alt="Lights" class="img img-fluid">
 		</a></div>
-         <div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/foto.png" alt="Lights" class="img img-fluid">
+         <div class="col-lg-1"><a class="button" href="<?php echo base_url('Fotocom'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/foto.png" alt="Lights" class="img img-fluid">
 		</a></div>
-		<div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/band.png" alt="Lights" class="img img-fluid">
+		<div class="col-lg-1"><a class="button" href="<?php echo base_url('Band'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/band.png" alt="Lights" class="img img-fluid">
 		</a></div>
-		<div class="col-sm-1"><a href="" class="button"><img src="<?php echo base_url(); ?>template/img/icon/lukis.png" alt="Lights" class="img img-fluid">
+		<div class="col-lg-1"><a class="button" href="<?php echo base_url('Lukis'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/lukis.png" alt="Lights" class="img img-fluid">
 		</a></div>
         
       </div>
@@ -68,61 +68,30 @@
 			</div>
 			</br>
 			</section>
-    <!-- Blog Post -->
+ 
+ <!-- Blog Post -->
     <div class="card mb-4">
       <div class="card-body">
         <div class="row">
           <div class="col-lg-5">
             <a href="#">
-              <img class="img-fluid rounded" src="<?php echo base_url('template/img/lomba/lomba1.jpeg') ?>" alt="">
+			   <img class="img img-fluid" height="100%" src="<?php echo base_url('template/img/lomba_gubernur/robotic_compation.jpg') ?>" alt="">
             </a>
-      <p></p>
-      
           </div>
-		  
-		  
-		  
-		  
-          <div class="col-lg-7">
-            <h2 class="card-title">Judul Lomba</h2>
-            <p class="card-text">[Deskripsi]<br>Ketentuan 
-• Festival diikuti pelajar se-Jawa Tengah yang berstatus aktif dengan menunjukkan 
-kartu identitas pelajar dan melampirkan surat keterangan dari sekolah
-• Peserta dilarang membawa/menggunakan/dalam pengaruh alkohol & narkotika 
-dan obat-obatan terlarang
-• Nama band dan materi lagu tidak mengandung unsur politik, sara, porno dan asusila
-• Setiap peserta wajib datang saat technical meeting pada hari dan tanggal yang ditentukan
-• Kostum peserta bebas, dengan catatan pakaian yang dikenakan dalam batas kesopanan 
-• Peserta yang tidak hadir tepat waktu akan didiskualifikasi
-• Peserta membawakan 2 lagu :
-1 lagu wajib : lagu daerah yang diaransemen ulang dengan karya sendiri (bukan mengambil potongan lagu lain)
-1 lagu pilihan : bebas (Indonesia/mancanegara)
-• Durasi penampilan peserta maksimal 20 menit (sudah termasuk persiapan)
-• Peserta wajib mematuhi peraturan yang berlaku
-• Keputusan juri bersifat mutlak dan tidak dapat diganggu gugat
-
-Hadiah 
-• Juara 1 : 5000.000
-• Juara 2 : 3.500.000
-• Juara 3 : 2.000.000
-Juara Favorit : 1.000.000
-Best Player : 2.500.000
-Juri 
-• Aang Pitono (Aktivis Rock Semarang)*
-• Agust Marshall (Aktivis Rock Temanggung)*
-• Didik Ermas (Aktivis Rock Solo)* 
-• Heydie (Powerslaves)*
-*tentative
-</p>
-
-<h4 class="card-title"><i class="fas fa-phone"></i> Adit</h4>
-<h4 class="card-title"><i class="far fa-calendar-alt"></i> 12 Desember 2012</h4>
-            
+          <div class="col-lg-6">
+		  <br>
+            <h3 class="card-title">LOMBA JATENG ROBOTIC COMPETITION </h3>
+			
+            <p class="card-text">Jateng Robotic Competition merupakan lomba robot line follower yang diselenggarakan oleh BAPEDA Pemerintah Daerah Kabupaten Wonosobo dan Propinsi
+ Jawa Tengah bekerjasama dengan Wonosobo Robotic Center SD Muhammadiyah Sudagaran. Maksud dan tujuan kegiatan ini antara lain untuk 
+ menumbuhkembangkan dan meningkatkan kreativitas serta inovasi teknologi tingkat pelajar, membudayakan iklim kompetitif di lingkungan Pendidikan
+ Dasar dan Menengah dan meningkatkan minat siswa terhadap ilmu pengetahuan dan teknologi robotika melalui suatu kegiatan lomba robot yang 
+ menyenangkan.  Tema lomba kali ini adalah "Teknologi Robotika Ramah Lingkungan di Era 4.0"
+			</p>
+     <h5 class="card-title"><a i class="fa fa-download" style="font-size:20px" href="<?php echo base_url().'Lomba/lakukan_download_game' ?>">Download Persyaratan Lomba Disini</i></a></h4>
           </div>
         </div>
       </div>
-    </div>
-	
 	
 	
 	

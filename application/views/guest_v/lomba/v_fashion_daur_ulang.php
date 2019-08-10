@@ -37,25 +37,25 @@
 	</br>
 	</div>
      <div class="row justify-content-md-center" >
-         <div class="col-sm-1"><a class="button" href="<?php echo base_url('Robot'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/robot.png" alt="Lights" class="img img-fluid">
+         <div class="col-lg-1"><a class="button" href="<?php echo base_url('Lomba/Gubernur'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/robot.png" alt="Lights" class="img img-fluid">
 		
 		</a></div>
 
-          <div class="col-sm-1"><a class="button" href="<?php echo base_url('Vlog'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/vlog.png" alt="Lights" class="img img-fluid">
+          <div class="col-lg-1"><a class="button" href="<?php echo base_url('Vlog'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/vlog.png" alt="Lights" class="img img-fluid">
 		
 		</a></div>
-        <div class="col-sm-1"><a class="button" href="<?php echo base_url('Gameo'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/gameonline.png" alt="Lights" class="img img-fluid">
+        <div class="col-lg-1"><a class="button" href="<?php echo base_url('Gameo'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/gameonline.png" alt="Lights" class="img img-fluid">
 	    </p>
 		</a></div>
-         <div class="col-sm-1"><a class="button" href="<?php echo base_url('Fashion'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/fashion.png" alt="Lights" class="img img-fluid">
+         <div class="col-lg-1"><a class="button" href="<?php echo base_url('Fashionku'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/fashion.png" alt="Lights" class="img img-fluid">
 		</a></div>
-         <div class="col-sm-1"><a class="button" href="<?php echo base_url('Disabillitas'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/dissabilitas.png" alt="Lights" class="img img-fluid">
+         <div class="col-lg-1"><a class="button" href="<?php echo base_url('Disabillitas'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/dissabilitas.png" alt="Lights" class="img img-fluid">
 		</a></div>
-         <div class="col-sm-1"><a class="button" href="<?php echo base_url('Fotocom'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/foto.png" alt="Lights" class="img img-fluid">
+         <div class="col-lg-1"><a class="button" href="<?php echo base_url('Fotocom'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/foto.png" alt="Lights" class="img img-fluid">
 		</a></div>
-		<div class="col-sm-1"><a class="button" href="<?php echo base_url('Band'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/band.png" alt="Lights" class="img img-fluid">
+		<div class="col-lg-1"><a class="button" href="<?php echo base_url('Band'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/band.png" alt="Lights" class="img img-fluid">
 		</a></div>
-		<div class="col-sm-1"><a class="button" href="<?php echo base_url('Lukis'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/lukis.png" alt="Lights" class="img img-fluid">
+		<div class="col-lg-1"><a class="button" href="<?php echo base_url('Lukis'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/lukis.png" alt="Lights" class="img img-fluid">
 		</a></div>
         
       </div>
@@ -73,18 +73,19 @@
     <div class="card mb-4">
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-5">
             <a href="#">
 			   <img class="img img-fluid" height="100%" src="<?php echo base_url('template/img/lomba_gubernur/fashion_daur_ulang.jpg') ?>" alt="">
             </a>
           </div>
           <div class="col-lg-6">
+		  <br>
             <h3 class="card-title">LOMBA FASHION SHOW BARANG BEKAS</h3>
 			
             <p class="card-text">Lomba fashion show barang bekas merupakan lomba yang didakan pada pameran produk inovasi tahun ini. Dimana peserta tidak hanya diutamakan berjalan diatas catwalk saja namun
 Busana yang diusung bukan hanya untuk memamerkan kreatifitas melainkan sebagai upaya kampanye kepada masyarakat tentang pentingnya
  hidup sehat dengan menjaga kebersihan lingkungan.</p>
-     <h5 class="card-title"><a i class="fa fa-download" style="font-size:20px" href="<?php echo base_url().'Fashionku/lakukan_download' ?>">Persyaratan Lomba</i></a></h4>
+     <h5 class="card-title"><a i class="fa fa-download" style="font-size:20px" href="<?php echo base_url().'Fashionku/lakukan_download' ?>">Download Persyaratan Lomba Disini</i></a></h4>
           </div>
         </div>
       </div>
