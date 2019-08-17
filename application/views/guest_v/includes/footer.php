@@ -4,24 +4,42 @@
 <footer class="footer-area py-1">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-5 col-md-6 col-sm-6">
-				<div class="single-footer-widget">
-					
-					<p class="footer-text">
-						PPI Jawa Tengah &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Proudly to
-						<i class="icon-heart3" aria-hidden="true"></i> <a href="https://colorlib.com" target="_blank">Colorlib</a>
-					</p>								
-				</div>
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<h3><br></h3></br>
+                    <ul>
+					<ol>
+                        <li><a href="<?php echo base_url('#'); ?>"><font color="white">Lomba Inovasi Teknologi Pertanian Wonosobo 2019</a></li></font>
+                        <li><a href="<?php echo base_url('#'); ?>"><font color="white">Kemitraan Usaha (Mini Expo Dan Temu Bisnis)</a></li></font>
+                        <li><a href="<?php echo base_url('#'); ?>"><font color="white">Marketing Service</a></li></font>
+						<br></br>
+						</ol>
+                    </ul>
+                </div>
 				
+				<div class="col-lg-4 col-md-6 col-sm-6">
+				<h3><br></h3></br>
+                    <ul>
+					<ol>
+                        <li><a href="<?php echo base_url('#'); ?>"><font color="white">Festival Kuliner Wonosobo 2019</a></li></font>
+                        <li><a href="<?php echo base_url('#'); ?>"><font color="white">Pameran Dan Lomba Posyantek Tenologi Tepat Guna</a></li></font>
+                        <li><a href="<?php echo base_url('#'); ?>"><font color="white">Seminar Teknologi "Pemuda, Inovasi Dan Teknologi"</a></li></font>
+						<br></br>
+						</ol>
+                    </ul>
+                </div>
+				
+				<div class="col-lg-4 col-md-6 col-sm-6">
+				<br></br>
 				<div class="single-footer-widget">
 					<h6>Ikuti Sosial Media Kami</h6>
 					<div class="footer-social d-flex align-items-center" align="100" size="10%">
-						<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-dribbble"></i></a>
-						<a href="#"><i class="fa fa-behance"></i></a>
+						<a class="facebook" href="<?php echo base_url('#'); ?>"><font size="5"><i class="fa fa-facebook"></i></a></font>
+						<a class="twitter" href="<?php echo base_url('#'); ?>"><font size="5"><i class="fa fa-twitter"></i></a></font>
+						<a class="youtube" href="<?php echo base_url('#'); ?>"><font size="5"><i class="fa fa-youtube"></i></a></font>
+						<a class="whatsapp" href="<?php echo base_url('#'); ?>"><font size="5"><i class="fa fa-whatsapp"></i></a></font>
 					</div>
 				</div>
+                </div>	
 			</div>
 		</div>
 	</div>
