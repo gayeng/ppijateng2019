@@ -14,7 +14,7 @@ class Vlog extends CI_Controller {
     function index()
     {
         $data = array();
-		$this->data['title']='Lomba';
+		$this->data['title']='Lomba Vlog';
          $this->template->render_page('guest_v/lomba/v_vlog',$this->data);
     }
 

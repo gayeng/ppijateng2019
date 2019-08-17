@@ -4,29 +4,24 @@
 <footer class="footer-area py-1">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-4 col-md-6 col-sm-6">
+			<div class="col-lg-5 col-md-6 col-sm-6">
 				<h3><br></h3></br>
-                    <ul>
-					<ol>
-                        <li><a href="<?php echo base_url('#'); ?>"><font color="white">Lomba Inovasi Teknologi Pertanian Wonosobo 2019</a></li></font>
-                        <li><a href="<?php echo base_url('#'); ?>"><font color="white">Kemitraan Usaha (Mini Expo Dan Temu Bisnis)</a></li></font>
-                        <li><a href="<?php echo base_url('#'); ?>"><font color="white">Marketing Service</a></li></font>
+                  
+					
+                        <li><a href="<?php echo base_url('Sitemap/index'); ?>"><font color="white">Lomba Inovasi Teknologi Pertanian Wonosobo 2019</a></li></font>
+                        <li><a href="<?php echo base_url('Sitemap/Kemitraan'); ?>"><font color="white">Kemitraan Usaha (Mini Expo Dan Temu Bisnis)</a></li></font>
+                        <li><a href="<?php echo base_url('Sitemap/Kuliner'); ?>"><font  color="white">Festival Kuliner Wonosobo 2019</a></li></font>
+                        <li><a href="<?php echo base_url('Sitemap/Posyantek'); ?>"><font  color="white">Pameran Dan Lomba Posyantek Tenologi Tepat Guna</a></li></font>
+                        <li><a href="<?php echo base_url('Sitemap/Pemuda'); ?>"><font color="white">Seminar Teknologi "Pemuda, Inovasi Dan Teknologi"</a></li></font>
+						
+						
 						<br></br>
-						</ol>
-                    </ul>
                 </div>
 				
-				<div class="col-lg-4 col-md-6 col-sm-6">
-				<h3><br></h3></br>
-                    <ul>
-					<ol>
-                        <li><a href="<?php echo base_url('#'); ?>"><font color="white">Festival Kuliner Wonosobo 2019</a></li></font>
-                        <li><a href="<?php echo base_url('#'); ?>"><font color="white">Pameran Dan Lomba Posyantek Tenologi Tepat Guna</a></li></font>
-                        <li><a href="<?php echo base_url('#'); ?>"><font color="white">Seminar Teknologi "Pemuda, Inovasi Dan Teknologi"</a></li></font>
-						<br></br>
-						</ol>
-                    </ul>
+				<div class="col-lg-2 col-md-6 col-sm-6">
                 </div>
+				
+				
 				
 				<div class="col-lg-4 col-md-6 col-sm-6">
 				<br></br>
@@ -37,6 +32,7 @@
 						<a class="twitter" href="<?php echo base_url('#'); ?>"><font size="5"><i class="fa fa-twitter"></i></a></font>
 						<a class="youtube" href="<?php echo base_url('#'); ?>"><font size="5"><i class="fa fa-youtube"></i></a></font>
 						<a class="whatsapp" href="<?php echo base_url('#'); ?>"><font size="5"><i class="fa fa-whatsapp"></i></a></font>
+						<a class="whatsapp" href="<?php echo base_url('#'); ?>"><font size="5"><i class="fa fa-envelope"></i></a></font>
 					</div>
 				</div>
                 </div>	

@@ -14,7 +14,7 @@ class Fashionku extends CI_Controller {
     function index()
     {
         $data = array();
-		$this->data['title']='Lomba';
+		$this->data['title']='Lomba Fashion Daur Ulang';
          $this->template->render_page('guest_v/lomba/v_fashion_daur_ulang',$this->data);
     }
 
