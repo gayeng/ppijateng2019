@@ -8,6 +8,6 @@
 
 	<br/>
 
-	<a href="<?php echo base_url().'Fashion/lakukan_download' ?>">Persyaratan</a>
+	<a href="<?php echo base_url().'fashion/lakukan_download' ?>">Persyaratan</a>
 </body>
 </html>

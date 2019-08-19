@@ -37,25 +37,25 @@
 	</br>
 	</div>
      <div class="row justify-content-md-center" >
-         <div class="col-lg-1"><a class="button" href="<?php echo base_url('Lomba/Gubernur'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/robot.png" alt="Lights" class="img img-fluid">
+         <div class="col-lg-1"><a class="button" href="<?php echo base_url('lomba/gubernur'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/robot.png" alt="Lights" class="img img-fluid">
 		
 		</a></div>
 
-          <div class="col-lg-1"><a class="button" href="<?php echo base_url('Vlog'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/vlog.png" alt="Lights" class="img img-fluid">
+          <div class="col-lg-1"><a class="button" href="<?php echo base_url('vlog'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/vlog.png" alt="Lights" class="img img-fluid">
 		
 		</a></div>
-        <div class="col-lg-1"><a class="button" href="<?php echo base_url('Gameo'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/gameonline.png" alt="Lights" class="img img-fluid">
+        <div class="col-lg-1"><a class="button" href="<?php echo base_url('gameo'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/gameonline.png" alt="Lights" class="img img-fluid">
 	    </p>
 		</a></div>
-         <div class="col-lg-1"><a class="button" href="<?php echo base_url('Fashionku'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/fashion.png" alt="Lights" class="img img-fluid">
+         <div class="col-lg-1"><a class="button" href="<?php echo base_url('fashionku'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/fashion.png" alt="Lights" class="img img-fluid">
 		</a></div>
-         <div class="col-lg-1"><a class="button" href="<?php echo base_url('Disabillitas'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/dissabilitas.png" alt="Lights" class="img img-fluid">
+         <div class="col-lg-1"><a class="button" href="<?php echo base_url('disabillitas'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/dissabilitas.png" alt="Lights" class="img img-fluid">
 		</a></div>
-         <div class="col-lg-1"><a class="button" href="<?php echo base_url('Fotocom'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/foto.png" alt="Lights" class="img img-fluid">
+         <div class="col-lg-1"><a class="button" href="<?php echo base_url('fotocom'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/foto.png" alt="Lights" class="img img-fluid">
 		</a></div>
-		<div class="col-lg-1"><a class="button" href="<?php echo base_url('Band'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/band.png" alt="Lights" class="img img-fluid">
+		<div class="col-lg-1"><a class="button" href="<?php echo base_url('band'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/band.png" alt="Lights" class="img img-fluid">
 		</a></div>
-		<div class="col-lg-1"><a class="button" href="<?php echo base_url('Lukis'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/lukis.png" alt="Lights" class="img img-fluid">
+		<div class="col-lg-1"><a class="button" href="<?php echo base_url('lukis'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/lukis.png" alt="Lights" class="img img-fluid">
 		</a></div>
         
       </div>
@@ -85,7 +85,7 @@
             <p class="card-text">Perkembangan Vlog sampai sekarang memang mengalami perkembangan yang cukup signifikan. Sejak kemunculan YouTube,perkembangan Vlogger ini memang cukup popular di banyak negara. Yuk Sobat , tunjukkan semangatmuu dengan mengikuti lomba Vlog ini
 			.Tunjukan semangat kreatif sobat disini memlalui vlog dengan tema "TEMATIK IPTEK dan Inovasi dalam industri Kreatif 4.0".
 			</p>
-     <h5 class="card-title"><a i class="fa fa-download" style="font-size:20px" href="<?php echo base_url().'Vlog/lakukan_download' ?>">Download Persyaratan Lomba Disini</i></a></h4>
+     <h5 class="card-title"><a i class="fa fa-download" style="font-size:20px" href="<?php echo base_url().'vlog/lakukan_download' ?>">Download Persyaratan Lomba Disini</i></a></h4>
           </div>
         </div>
       </div>

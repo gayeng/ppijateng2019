@@ -1,6 +1,6 @@
 <?php
 
-class Logout extends CI_Controller
+class logout extends CI_Controller
 {
     function index()
     {

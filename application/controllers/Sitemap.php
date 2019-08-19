@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Sitemap extends CI_Controller {
+class sitemap extends CI_Controller {
 
 	public function __construct()
 	{
@@ -18,28 +18,28 @@ class Sitemap extends CI_Controller {
         $this->template->render_page('guest_v/lomba/v_lombapertanian',$this->data);
     }
 	
-	function Kemitraan()
+	function kemitraan()
     {
         $data = array();
 		$this->data['title']='Kemitraan Usaha';
         $this->template->render_page('guest_v/lomba/v_kemitraan',$this->data);
     }
 	
-	function Kuliner()
+	function kuliner()
     {
         $data = array();
 		$this->data['title']='Informasi Kuliner';
         $this->template->render_page('guest_v/lomba/v_kuliner',$this->data);
     }
 	
-	function Posyantek()
+	function posyantek()
     {
         $data = array();
 		$this->data['title']='Posyantek Teknologi Tepat Guna';
         $this->template->render_page('guest_v/lomba/v_posyantek',$this->data);
     }
 	
-	function Pemuda()
+	function pemuda()
     {
         $data = array();
 		$this->data['title']='Seminar Pemuda';

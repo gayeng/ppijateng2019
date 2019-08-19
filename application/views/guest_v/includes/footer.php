@@ -8,11 +8,11 @@
 				<h3><br></h3></br>
                   
 					
-                        <li><a href="<?php echo base_url('Sitemap/index'); ?>"><font color="white">Lomba Inovasi Teknologi Pertanian Wonosobo 2019</a></li></font>
-                        <li><a href="<?php echo base_url('Sitemap/Kemitraan'); ?>"><font color="white">Kemitraan Usaha (Mini Expo Dan Temu Bisnis)</a></li></font>
-                        <li><a href="<?php echo base_url('Sitemap/Kuliner'); ?>"><font  color="white">Festival Kuliner Wonosobo 2019</a></li></font>
-                        <li><a href="<?php echo base_url('Sitemap/Posyantek'); ?>"><font  color="white">Pameran Dan Lomba Posyantek Tenologi Tepat Guna</a></li></font>
-                        <li><a href="<?php echo base_url('Sitemap/Pemuda'); ?>"><font color="white">Seminar Teknologi "Pemuda, Inovasi Dan Teknologi"</a></li></font>
+                        <li><a href="<?php echo base_url('sitemap/index'); ?>"><font color="white">Lomba Inovasi Teknologi Pertanian Wonosobo 2019</a></li></font>
+                        <li><a href="<?php echo base_url('sitemap/kemitraan'); ?>"><font color="white">Kemitraan Usaha (Mini Expo Dan Temu Bisnis)</a></li></font>
+                        <li><a href="<?php echo base_url('sitemap/kuliner'); ?>"><font  color="white">Festival Kuliner Wonosobo 2019</a></li></font>
+                        <li><a href="<?php echo base_url('sitemap/posyantek'); ?>"><font  color="white">Pameran Dan Lomba Posyantek Tenologi Tepat Guna</a></li></font>
+                        <li><a href="<?php echo base_url('sitemap/pemuda'); ?>"><font color="white">Seminar Teknologi "Pemuda, Inovasi Dan Teknologi"</a></li></font>
 						
 						
 						<br></br>
