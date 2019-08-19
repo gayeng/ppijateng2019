@@ -15,26 +15,28 @@
         </div>
 </section>
 
-<div class="container">
+
 
    <h1 class="mt-4 mb-3">
       <small></small>
     </h1>
  <div class="container"> 
  <section class="home-aboutus-area py-4">
-	<div class="container-fluid">
+
 		<div class="row">
 			<div class="col-md-4">
 		
 			 <h2> <font color="white">Lomba Piala Gubenur Yang Di Perlombakan</font></h2>
-			</h1>
+			
 			</div>
-			</br>
+			<br>
+		</div>
+	
 			</section>
 			
     <div>
 	<br>
-	</br>
+	<br>
 	</div>
      <div class="row justify-content-md-center" >
          <div class="col-lg-1"><a class="button" href="<?php echo base_url('lomba/gubernur'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/robot.png" alt="Lights" class="img img-fluid">
@@ -44,8 +46,14 @@
           <div class="col-lg-1"><a class="button" href="<?php echo base_url('vlog'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/vlog.png" alt="Lights" class="img img-fluid">
 		
 		</a></div>
+<<<<<<< HEAD
         <div class="col-lg-1"><a class="button" href="<?php echo base_url('gameo'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/gameonline.png" alt="Lights" class="img img-fluid">
 	    </p>
+=======
+        <div class="col-lg-1"><a class="button" href="<?php echo base_url('Gameo'); ?>">
+			<img src="<?php echo base_url(); ?>template/img/icon/gameonline.png" alt="Lights" class="img img-fluid">
+	    
+>>>>>>> 520cd9a6f3d079a91216c81a614b7c522e9c2232
 		</a></div>
          <div class="col-lg-1"><a class="button" href="<?php echo base_url('fashionku'); ?>"><img src="<?php echo base_url(); ?>template/img/icon/fashion.png" alt="Lights" class="img img-fluid">
 		</a></div>
@@ -59,14 +67,16 @@
 		</a></div>
         
       </div>
-	   </div>
+	  
 	  <br>
 	 <section class="home-aboutus-area py-4">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-4">
 			</div>
-			</br>
+			<br>
+		 </div>
+		 </div>
 			</section>
  
  <!-- Blog Post -->
@@ -88,10 +98,17 @@
  Dasar dan Menengah dan meningkatkan minat siswa terhadap ilmu pengetahuan dan teknologi robotika melalui suatu kegiatan lomba robot yang 
  menyenangkan.  Tema lomba kali ini adalah "Teknologi Robotika Ramah Lingkungan di Era 4.0"
 			</p>
+<<<<<<< HEAD
      <h5 class="card-title"><a i class="fa fa-download" style="font-size:20px" href="<?php echo base_url().'lomba/lakukan_download_game' ?>">Download Persyaratan Lomba Disini</i></a></h4>
+=======
+     <h5 class="card-title"><a  class="fa fa-download" style="font-size:20px" href="<?php echo base_url().'Lomba/lakukan_download_game' ?>">Download Persyaratan Lomba Disini</a></h5>
+>>>>>>> 520cd9a6f3d079a91216c81a614b7c522e9c2232
           </div>
         </div>
       </div>
+		
+		
+
 	
 	
 	
