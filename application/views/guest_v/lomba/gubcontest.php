@@ -15,14 +15,14 @@
         </div>
 </section>
 
-<div class="container">
+
 
    <h1 class="mt-4 mb-3">
       <small></small>
     </h1>
  <div class="container"> 
  <section class="home-aboutus-area py-4">
-	<div class="container-fluid">
+
 		<div class="row">
 			<div class="col-md-4">
 		
@@ -31,7 +31,7 @@
 			</div>
 			<br>
 		</div>
-	 </div>
+	
 			</section>
 			
     <div>
@@ -62,7 +62,7 @@
 		</a></div>
         
       </div>
-	   </div>
+	  
 	  <br>
 	 <section class="home-aboutus-area py-4">
 	<div class="container-fluid">
