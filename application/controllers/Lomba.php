@@ -28,6 +28,10 @@ class lomba extends CI_Controller {
 	public function lakukan_download_game(){				
 		force_download('dokumen/JATENG_ROBOTIC_2019.pdf',NULL);
 	}	
+	
+	public function lakukan_download_game_cdr(){				
+		force_download('dokumen/TrackJRCWonosobo2019.cdr',NULL);
+	}	
 
     function bupati()
     {

@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class vlog extends CI_Controller {
+class lukis extends CI_Controller {
 
 	public function __construct()
 	{
@@ -14,14 +14,12 @@ class vlog extends CI_Controller {
     function index()
     {
         $data = array();
-		$this->data['title']='Lomba Vlog';
-         $this->template->render_page('guest_v/lomba/v_vlog',$this->data);
+		$this->data['title']='Lomba';
+         $this->template->render_page('guest_v/lomba/v_lukis',$this->data);
     }
+	public function lakukan_download(){				
+		force_download('dokumen/lomba_lukis.pdf',NULL);
+	}	
 
   
-		public function lakukan_download(){				
-		force_download('dokumen/Lomba_Vlog.pdf',NULL);
-	}	
-	
-	
 }

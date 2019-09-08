@@ -65,13 +65,13 @@
     <!-- Blog Post -->
     <div class="card mb-4">
 	<div class="card-header">
-	<h3>LOMBA PHOTO COMPETATION</h3>
+	<h3>LOMBA COMPETATION BAND SE-JAWATENGAH</h3>
 	</div>
       <div class="card-body">
         <div class="row">
           <div class="col-lg-5">
             <a href="#">
-        <img class="img img-fluid" height="100%" src="<?php echo base_url('template/img/lomba_gubernur/photo_competation.jpg') ?>" alt="">
+           <img class="img img-fluid" height="100%" src="<?php echo base_url('template/img/lomba_gubernur/piala_gub_festival band.jpg') ?>" alt="">
             </a>
 			<p></p>
 			
@@ -80,20 +80,16 @@
            
 			
             <p class="card-text">
-			Photo competition adalah jenis lomba yang cukup banyak peminat nya dari tahun ketahun,
-			seiring dengan perkembangan mudahnya belajar mengenai fotografi, oleh sebab itu mari sobat ikut lomba 
-			photo competition ini . Untuk menunjukan seberapa handal dan kreatifitasnya diri anda didunia fotografi
+			Band competation merupakan bagian dari program inti pameran produk inovasi 2019 
+			dimana acara yang berorientasi kepada penampilan langsung menyanyi dan dipadukan oleh instrumen musik yang menarik . dimana peserta
+			didalam competation ini adalah siswa-siswi seluruh jawa tengah.
 			</p>
- <h5 class="card-title"><a i class="fa fa-download" style="font-size:20px" href="<?php echo base_url().'fotocom/lakukan_download' ?>">Download Persyaratan Lomba Disini</i></a></h4>
-
+  <h5 class="card-title"><a i class="fa fa-download" style="font-size:20px" href="<?php echo base_url().'band/lakukan_download' ?>">Download Persyaratan Lomba Disini</i></a></h4>
           	
           </div>
         </div>
       </div>
     </div>
-	
-	
-	
 	
 	
 	

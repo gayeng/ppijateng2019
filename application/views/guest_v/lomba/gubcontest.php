@@ -86,7 +86,7 @@
  menyenangkan.  Tema lomba kali ini adalah "Teknologi Robotika Ramah Lingkungan di Era 4.0"
 			</p>
  <h5 class="card-title"><a i class="fa fa-download" style="font-size:20px" href="<?php echo base_url().'lomba/lakukan_download_game' ?>">Download Persyaratan Lomba Disini</i></a></h4>
-
+<h5 class="card-title"><a i class="fa fa-download" style="font-size:20px" href="<?php echo base_url().'lomba/lakukan_download_game_cdr' ?>">Download Track Lomba</i></a></h4>
           	
           </div>
         </div>
@@ -100,42 +100,4 @@
 	
 	
 	
-	
-	
-	
-	
-	<div class="card mb-4">
-	<div class="card-header">
-	<h3>LOMBA JATENG ROBOTIC COMPETITION </h3>
-	</div>
-      <div class="card-body">
-        <div class="row">
-          <div class="col-lg-5">
-            <a href="#">
-          <img class="img img-fluid" height="100%" src="<?php echo base_url('template/img/lomba_gubernur/robotic_compation.jpg') ?>" alt="">
-            </a>
-			<p></p>
-			
-          </div>
-          <div class="col-lg-7">
-           
-			
-            <p class="card-text">Jateng Robotic Competition merupakan lomba robot line follower yang diselenggarakan oleh BAPEDA Pemerintah Daerah Kabupaten Wonosobo dan Propinsi
- Jawa Tengah bekerjasama dengan Wonosobo Robotic Center SD Muhammadiyah Sudagaran. Maksud dan tujuan kegiatan ini antara lain untuk 
- menumbuhkembangkan dan meningkatkan kreativitas serta inovasi teknologi tingkat pelajar, membudayakan iklim kompetitif di lingkungan Pendidikan
- Dasar dan Menengah dan meningkatkan minat siswa terhadap ilmu pengetahuan dan teknologi robotika melalui suatu kegiatan lomba robot yang 
- menyenangkan.  Tema lomba kali ini adalah "Teknologi Robotika Ramah Lingkungan di Era 4.0"
-			</p>
- <h5 class="card-title"><a i class="fa fa-download" style="font-size:20px" href="<?php echo base_url().'lomba/lakukan_download_game' ?>">Download Persyaratan Lomba Disini</i></a></h4>
 
-          	
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
- 
-  
-  
