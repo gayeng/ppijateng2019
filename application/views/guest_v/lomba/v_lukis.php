@@ -71,7 +71,7 @@
         <div class="row">
           <div class="col-lg-5">
             <a href="#">
-           <img class="img img-fluid" height="100%" src="<?php echo base_url('template/img/lomba_gubernur/piala_gub_lukis tenong.jpg') ?>" alt="">
+           <img class="img img-fluid" height="100%" src="<?php echo base_url('template/img/lomba_gubernur/piala_gub_lukis_tenong.jpg') ?>" alt="">
             </a>
 			<p></p>
 			

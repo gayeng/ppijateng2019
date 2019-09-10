@@ -62,13 +62,13 @@
         <div class="row justify-content-md-center">
           <div class="col-lg-3" style="background-color:lightblue">
 		  
-             <h2 class="card-title">Lomba Amazing Race</h2>
+             <h2 class="card-title">Lomba Blog</h2>
           </div>
           <div class="col-lg-6" style="background-color:pink">
            
-             <img class="img-fluid" src="<?php echo base_url('template/img/lomba_bupati/piala_bup_ppi amazing_race.jpg') ?>" alt="">
+             <img class="img-fluid" src="<?php echo base_url('template/img/lomba_bupati/piala_bup_lomba_blog.jpg') ?>" alt="">
     <div class="card-footer text-muted">
-      <a i class="fa fa-download" style="font-size:20px" href="<?php echo base_url().'lomba/lakukan_download_bup' ?>">Download Persyaratan Lomba Disini</i></a>
+      <a i class="fa fa-download" style="font-size:20px" href="<?php echo base_url().'blog/lakukan_download' ?>">Download Persyaratan Lomba Disini</i></a>
         
       </div>
     </div>

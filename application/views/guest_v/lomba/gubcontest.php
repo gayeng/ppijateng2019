@@ -7,7 +7,8 @@
 						<div class="banner-content col-lg-9 col-md-12">
 							
 							<h1 class="text-white">
-								Lomba-Lomba	Piala Bupati
+								Lomba-Lomba	
+								Piala Gubernur
 							</h1>
 							<br>
 						</div>											
@@ -22,7 +23,7 @@
 		<div class="row">
 			<div class="col-md-12">
 		
-			 <h2 style="text-align:center;"> <font color="white">Lomba Piala Bupati Yang Di Perlombakan</font></h2>
+			 <h2 style="text-align:center;"> <font color="white">Lomba Piala Gubernur Yang Di Perlombakan</font></h2>
 			</div>
 			
 			</div>

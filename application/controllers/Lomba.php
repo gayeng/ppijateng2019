@@ -39,6 +39,10 @@ class lomba extends CI_Controller {
 		$this->data['title']='Piala Bupati';
         $this->template->render_page('guest_v/lomba/bupcontest',$this->data);
     }
+	
+	public function lakukan_download_bup(){				
+		force_download('dokumen/S&KTHEAMAZINGRACEPIJATENG2019WONOSOBO.pdf',NULL);
+	}	
 
 }
 

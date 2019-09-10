@@ -74,7 +74,6 @@
 						  <li class="menu-has-children">
 						  <a href="#">Lomba</a>
 				            <ul>
-				              <li><a href="<?php echo base_url('lomba'); ?>">Semua lomba</a></li>
 							  <li><a href="<?php echo base_url('lomba/gubernur'); ?>">Piala Gubernur</a></li>
 				              <li>  <a href="<?php echo base_url('lomba/bupati'); ?>">Piala Bupati</a></li>
 				            </ul>
